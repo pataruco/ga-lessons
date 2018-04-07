@@ -28,33 +28,30 @@ module.exports = {
       },
     ],
   },
-  // plugins: [
-  //   new webpack.ProvidePlugin({
-  //     Reveal: 'reveal.js',
-  //   }),
-  //   new CopyWebpackPlugin([
-  //     // speaker note base window
-  //     {
-  //       from: './node_modules/reveal.js/plugin/notes/notes.html',
-  //       to: 'lib/js/reveal.js-dependencies/notes.html',
-  //     },
-  //     // styles for slides export to to pdf
-  //     {
-  //       from: { glob: './node_modules/reveal.js/css/print/*.css' },
-  //       to: 'lib/css/[name].css',
-  //     },
-  //     // modified styles for menu.js plugin (compatible with inline svg)
-  //     // { from: (configEnv.FOR_WEB || (configEnv.FONTAWESOME_ENGINE=='css') ? '../node_modules/reveal.js-menu/menu.css' : '_styles/menu-inline-svg.css', to: 'lib/css/menu.css' },
-  //     // any files in content
-  //     {
-  //       context: 'content',
-  //       from: '**/*',
-  //       to: 'content/',
-  //     },
-  //     {
-  //       from: '../node_modules/reveal.js-menu/menu.css',
-  //       to: 'lib/css/menu.css',
-  //     },
-  //   ]),
-  // ],
+  plugins: [
+    new webpack.ProvidePlugin({
+      Reveal: 'reveal.js',
+    }),
+    new CopyWebpackPlugin([
+      // marked
+      {
+        from: './node_modules/reveal.js/plugin/markdown/marked.js',
+        to: '../lib/marked.js',
+      },
+      // markdown
+      {
+        from: './node_modules/reveal.js/plugin/markdown/markdown.js',
+        to: '../lib/markdown.js',
+      },
+      // head
+      {
+        from: './node_modules/reveal.js/lib/js/head.min.js',
+        to: '../lib/head.js',
+      },
+    ]),
+  ],
+  devServer: {
+    contentBase: ['.', path.join(__dirname, 'slides/')],
+    port: 9000,
+  },
 };
