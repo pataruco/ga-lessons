@@ -2,9 +2,9 @@ const path = require('path');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
 module.exports = {
   entry: './src/scripts/index.js',
+  mode: 'development',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
@@ -45,6 +45,21 @@ module.exports = {
       {
         from: './node_modules/reveal.js/lib/js/head.min.js',
         to: '../lib/head.js',
+      },
+      //css reveal
+      {
+        from: './node_modules/reveal.js/css/reveal.css',
+        to: '../lib/reveal.css',
+      },
+      //css reveal simple theme
+      {
+        from: './node_modules/reveal.js/css/theme/simple.css',
+        to: '../lib/simple.css',
+      },
+      // css code high lighting
+      {
+        from: './node_modules/reveal.js/lib/css/zenburn.css',
+        to: '../lib/zenburn.css',
       },
     ]),
     new HtmlWebpackPlugin({

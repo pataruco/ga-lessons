@@ -1,7 +1,11 @@
+@import '../../lib/reveal.css';
+@import '../../lib/zenburn.css';
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background: green;
+  font-size: 24px;
+  font-family: sans-serif;
 }

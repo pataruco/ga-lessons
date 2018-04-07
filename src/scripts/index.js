@@ -1,21 +1,23 @@
 import '../../lib/head';
 import Reveal from 'reveal.js';
+import hljs from 'highlight.js';
 import '../styles/index.css';
 
 document.addEventListener('DOMContentLoaded', event => {
   window.Reveal = Reveal;
   Reveal.initialize({
-    dependencies: [
-      { src: './lib/marked.js' },
-      // { src: './lib/markdown.js' },
-      // { src: '../node_modules/reveal.js/plugin/notes/notes.js', async: true },
-      // {
-      //   src: 'plugin/highlight/highlight.js',
-      //   async: true,
-      //   callback: function() {
-      //     hljs.initHighlightingOnLoad();
-      //   },
-      // },
-    ],
+    dependencies: [{ src: './lib/marked.js' }, { src: './lib/markdown.js' }],
+  });
+
+  Reveal.addEventListener('ready', function(event) {
+    const codes = document.querySelectorAll('p code');
+    for (const code of codes) {
+      hljs.highlightBlock(code);
+    }
   });
 });
+
+// todo:
+// Add css as <link>
+// block hightlight
+// style
