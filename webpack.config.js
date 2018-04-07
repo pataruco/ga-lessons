@@ -1,21 +1,19 @@
 const path = require('path');
-const app = __dirname + '/app';
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  // context: app,
-  entry: './src/js/index.js',
+  entry: './src/scripts/index.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
   },
   module: {
     rules: [
       {
         test: /\.css$/,
-        use: [{ loader: 'css-loader' }],
+        use: ['style-loader', 'css-loader'],
       },
       {
         test: /\.js$/,
@@ -49,6 +47,9 @@ module.exports = {
         to: '../lib/head.js',
       },
     ]),
+    new HtmlWebpackPlugin({
+      template: './index.html',
+    }),
   ],
   devServer: {
     contentBase: ['.', path.join(__dirname, 'slides/')],
