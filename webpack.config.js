@@ -58,8 +58,8 @@ module.exports = {
       },
       // css code high lighting
       {
-        from: './node_modules/reveal.js/lib/css/zenburn.css',
-        to: '../lib/zenburn.css',
+        from: './node_modules/highlight.js/styles/atom-one-dark.css',
+        to: '../lib/atom-one-dark.css',
       },
     ]),
     new HtmlWebpackPlugin({
@@ -67,7 +67,7 @@ module.exports = {
     }),
   ],
   devServer: {
-    contentBase: ['.', path.join(__dirname, 'slides/')],
-    port: 9000,
+    contentBase: './',
+    port: 5000,
   },
 };

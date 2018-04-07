@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', event => {
   });
 
   Reveal.addEventListener('ready', function(event) {
-    const codes = document.querySelectorAll('p code');
+    const codes = document.querySelectorAll('pre code, p code');
     for (const code of codes) {
       hljs.highlightBlock(code);
     }
@@ -19,5 +19,4 @@ document.addEventListener('DOMContentLoaded', event => {
 
 // todo:
 // Add css as <link>
-// block hightlight
 // style
