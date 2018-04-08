@@ -57,6 +57,10 @@ image retrieved from http://www.onbile.com/info/wp-content/uploads/2013/09/Timel
 
 Heading Elements
 
+```html
+<h1> this is a heading </h1>
+```
+
 `<h1>`Largest Heading`</h1>`
 
 `<h2>` . . . `</h2>`
@@ -91,9 +95,7 @@ Unordered list
 ## Content Tags
 
 Unordered list item
-`
-`<li>`First item`</li>`
-`<li>`Next item`</li>`
+``<li>`First item`</li>``<li>`Next item`</li>`
 
 ---
 
