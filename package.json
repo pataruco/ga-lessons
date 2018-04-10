@@ -1,29 +1,44 @@
 {
-  "name": "fewd-lessons",
-  "version": "1.0.0",
-  "private": true,
-  "repository": "git@github.com:pataruco/fewd-lessons.git",
-  "author": "Pedro Martin <pataruco@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "highlight.js": "^9.12.0",
-    "normalize.css": "^8.0.0",
-    "reveal.js": "^3.6.0"
+  "name": "reveal.js",
+  "version": "3.6.0",
+  "description": "The HTML Presentation Framework",
+  "homepage": "http://revealjs.com",
+  "subdomain": "revealjs",
+  "main": "js/reveal.js",
+  "scripts": {
+    "test": "grunt test",
+    "start": "grunt serve",
+    "build": "grunt",
+    "start:server": "./node_modules/.bin/grunt serve"
+  },
+  "author": {
+    "name": "Hakim El Hattab",
+    "email": "hakim.elhattab@gmail.com",
+    "web": "http://hakim.se"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hakimel/reveal.js.git"
+  },
+  "engines": {
+    "node": ">=4.0.0"
   },
   "devDependencies": {
-    "babel-loader": "^7.1.4",
-    "copy-webpack-plugin": "^4.5.1",
-    "css-loader": "^0.28.11",
-    "headjs": "^1.0.3",
-    "html-webpack-plugin": "^3.2.0",
-    "style-loader": "^0.20.3",
-    "webpack": "^4.5.0",
-    "webpack-cli": "^2.0.14",
-    "webpack-dev-server": "^3.1.2"
+    "express": "^4.15.2",
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-cssmin": "^2.1.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-qunit": "~1.2.0",
+    "grunt-contrib-uglify": "^2.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-retire": "^1.0.7",
+    "grunt-zip": "~0.17.1",
+    "mustache": "^2.3.0",
+    "socket.io": "^1.7.3"
   },
-  "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch",
-    "start:dev": "webpack-dev-server"
-  }
+  "license": "MIT"
 }
