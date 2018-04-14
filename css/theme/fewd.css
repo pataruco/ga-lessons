@@ -22,12 +22,12 @@ body {
 
 ::selection {
   color: #fff;
-  background: #98bdef;
+  background: #fdbfbe;
   text-shadow: none; }
 
 ::-moz-selection {
   color: #fff;
-  background: #98bdef;
+  background: #fdbfbe;
   text-shadow: none; }
 
 .reveal .slides > section,
@@ -55,7 +55,7 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2.5em; }
+  font-size: 2em; }
 
 .reveal h2 {
   font-size: 1.6em; }
@@ -207,20 +207,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #2a76dd;
+  color: #fa4542;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
   transition: color 0.15s ease; }
 
 .reveal a:hover {
-  color: #6ca0e8;
+  color: #e90a06;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #1a53a1; }
+  background: #e90a06; }
 
 /*********************************************
  * IMAGES
@@ -242,21 +242,21 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #2a76dd;
+  border-color: #fa4542;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #2a76dd; }
+  color: #fa4542; }
 
 /*********************************************
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #2a76dd; }
+  color: #fa4542; }
 
 .reveal .progress span {
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -275,11 +275,8 @@ body {
 .reveal h6 {
   text-transform: none; }
 
-.reveal h1 {
-  font-size: 2em; }
-
 .reveal .progress span {
-  color: black; }
+  color: #fa4542; }
 
 .reveal .slides p {
   text-align: start; }
@@ -291,3 +288,10 @@ body {
 .reveal dl,
 .reveal ul {
   display: block; }
+
+.reveal code:not(.hljs) {
+  color: #fa4542;
+  font-weight: bold; }
+
+.reveal pre {
+  width: 100%; }
