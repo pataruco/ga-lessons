@@ -14,16 +14,55 @@ Learn the building-blocks of JavaScript so we can add more interaction to the pa
 
 ## Agenda
 
-* Introduction To Programming
-* What JS Can Do
-* Reading JS
-* Lab
+* What is JavaScript
+* The DOM
+* Events
+* Functions
+* Variables
+* Conditionals
 
 ---
 
-# Introduction To Programming
+# What is JavaScript?
 
-The computer will do what you tell it to do.
+---
+
+# What is JavaScript?
+
+* Programming language in the browser (mostly)
+* Created in 10 days back in 1995 by Brendan Eiche
+* Used to add interaction to the page
+* Used to add complex functionality
+* Often driven by user initiated events Very powerful
+* Nothing to do with Java
+
+---
+
+# JavaScript is not Java
+
+---
+
+# Examples
+
+* [Codepen](https://codepen.io/pataruco/pen/MVMKyJ?editors=1010)
+* [Student example](http://pataruco.s3.amazonaws.com/ga/tic-tac-toe/index.html)
+
+---
+
+# The DOM
+
+---
+
+# The DOM
+
+JavaScript interacts with our HTML document. It can read info on the page and make changes to any element on the page.
+To learn how to do this we need a common language to describe the construction of the document and the elements within it.
+
+---
+
+# The DOM
+
+The **Document Object Model** is a representation of the page used by JavaSCript to interact with all the elements.
 
 ---
 

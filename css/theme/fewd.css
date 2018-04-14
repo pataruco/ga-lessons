@@ -275,5 +275,19 @@ body {
 .reveal h6 {
   text-transform: none; }
 
+.reveal h1 {
+  font-size: 2em; }
+
 .reveal .progress span {
   color: black; }
+
+.reveal .slides p {
+  text-align: start; }
+  .reveal .slides p img {
+    display: block;
+    margin: 0 auto; }
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  display: block; }

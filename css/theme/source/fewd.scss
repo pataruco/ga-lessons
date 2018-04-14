@@ -59,7 +59,25 @@ section.has-dark-background {
     text-transform: none;
   }
 
+  h1 {
+    font-size: 2em;
+  }
+
   .progress span {
     color: black;
+  }
+
+  .slides p {
+    text-align: start;
+    & img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  ol,
+  dl,
+  ul {
+    display: block;
   }
 }
