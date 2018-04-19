@@ -34,7 +34,7 @@ As much as jQuery is a nicer was to add interaction... jQuery is JavaScript
 
 ## jQuery
 
-jQuery is a cross browswer JavaScript library designed to simplify the client ­side scripting of HTML.
+jQuery is a cross browswer JavaScript library designed to simplify the client side scripting of HTML.
 
 ---
 
@@ -65,7 +65,7 @@ Adding jQuery to your website
 
 ## jQuery
 
-jQuery gives us a short, human­ readable, cross­ browser friendly syntax for selecting and interacting with elements
+jQuery gives us a short, human readable, cross browser friendly syntax for selecting and interacting with elements
 
 ```js
 $('.content-box').hide();
