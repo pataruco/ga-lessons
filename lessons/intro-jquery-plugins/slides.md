@@ -1,6 +1,6 @@
 ![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
 
-# jQuery plugin
+# jQuery plugins
 
 ### Pedro Martin
 
@@ -18,19 +18,6 @@
 
 Let's take the example of a slideshow or carousel.
 In other courses, we sometimes do a codealong showing how to make a slideshow from scratch.
-
----
-
-## Slideshow
-
-This takes advantage of the jQuery .animate()method and some simple maths to slide a container of images around within a window.
-
----
-
-## Slideshow
-
-But this is quite limited in how it can be customised and adding a slideshow to a website is no new thing.
-Perhaps we can get some help from some smart people and save ourselves some time?
 
 ---
 

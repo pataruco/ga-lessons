@@ -1,14 +1,8 @@
 ![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
 
-# Intro Programming
+# Intro jQuery
 
 ### Pedro Martin
-
----
-
-# Objective
-
-Learn the building-blocks of JavaScript so we can add more interaction to the page.
 
 ---
 
@@ -38,6 +32,12 @@ jQuery is a cross browswer JavaScript library designed to simplify the client si
 
 ---
 
+## jQuery example
+
+[Example](https://codepen.io/pataruco/pen/PeZdGZ)
+
+---
+
 ## jQuery provides
 
 * More consistent and readable syntax
@@ -58,7 +58,7 @@ Adding jQuery to your website
 
 <!-- or -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0 /jquery.js"></script>
+<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
 ```
 
 ---
@@ -128,8 +128,6 @@ Really useful documentation about everything jQuery can do: [http://jquery.com/]
 
 ## Exercise
 
-[Color Switcher](http://codepen.io/guyroutledge/pen/jBLGn)
+[Color Switcher](https://codepen.io/pataruco/pen/BxoPEK)
 
 ---
-
-## Hamburger Menu
