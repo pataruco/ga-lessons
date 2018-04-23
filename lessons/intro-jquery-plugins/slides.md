@@ -8,32 +8,15 @@
 
 ## Agenda
 
-* Slideshow
-* Fancy Popups
 * Scroll Triggers
-
----
-
-## Slideshow
-
-Let's take the example of a slideshow or carousel.
-In other courses, we sometimes do a codealong showing how to make a slideshow from scratch.
-
----
-
-## Slideshow
-
-http://codepen.io/guyroutledge/pen/DnxJH
+* Fancy Popups
+* Carousel
 
 ---
 
 ## jQuery plugins
 
----
-
-## jQuery plugins
-
-A pluginin a self-contained bundle of JS (and sometimes CSS and images) that adds interaction and functionality without you having to write the code yourself!
+A plugin is a self-contained bundle of JavaScript (and sometimes CSS and images) that adds interaction and functionality without you having to write the code yourself!
 
 ---
 
@@ -47,7 +30,7 @@ They are just jQuery code that you could write yourself, but instead of "reinven
 
 Using plugins has the following benefits:
 
-* You don't have to be a JS ninja to have a visually rich project Huge time savings
+* You don't have to be a JavaScript ninja to have a visually rich project Huge time savings
 * Most are very customisable
 * Most are open source (free)
 * Most have been well tested and improved over time Most have been well documented
@@ -83,23 +66,6 @@ If you get stuck, a quick search of Google/Stack Overflow should help you get ba
 
 ---
 
-## Popups with Fancybox
-
----
-
-## Fancybox
-
-http://fancyapps.com/fancybox/
-
----
-
-## Fancybox
-
-Fancybox is a great little plugin for creating lightbox effects which allow you to hide content until it's requested by the user and then display it as a modal box, overlaid over the top of your main page.
-A typical use-case is log in forms, sign up forms, displaying large images or video or extra information.
-
----
-
 ## Waypoints
 
 http://imakewebthings.com/waypoints/
@@ -108,7 +74,7 @@ http://imakewebthings.com/waypoints/
 
 ## Waypoints
 
-This is a library that allows you to trigger JS behaviour when the user scrolls to a certain point in the page.
+This is a library that allows you to trigger JavaScript behaviour when the user scrolls to a certain point in the page.
 
 It's a very lightweight library but comes in really useful for drawing attention to a particular element or section of the page just in time for the user to see it.
 
@@ -122,10 +88,29 @@ This means you can add subtle entrance/exit effects as elements move through the
 
 ---
 
-## More scrolling
+## Popups with Fancybox
 
-Scrolling effects are quite popular at the moment and there are loads of plugins that help with this stuff. A few that I've used:
-http://scrollmagic.io/
+---
+
+## Fancybox
+
+[https://fancyapps.com/fancybox/3/](https://fancyapps.com/fancybox/3/)
+
+---
+
+## Fancybox
+
+Fancybox is a great little plugin for creating lightbox effects which allow you to hide content until it's requested by the user and then display it as a modal box, overlaid over the top of your main page.
+
+---
+
+## Carousel with Slick
+
+---
+
+## Slick Slider
+
+[http://kenwheeler.github.io/slick/](http://kenwheeler.github.io/slick/)
 
 ---
 
