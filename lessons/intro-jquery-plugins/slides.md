@@ -88,6 +88,14 @@ This means you can add subtle entrance/exit effects as elements move through the
 
 ---
 
+## Waypoints
+
+Example
+
+[https://codepen.io/pataruco/pen/GdoYJm](https://codepen.io/pataruco/pen/GdoYJm)
+
+---
+
 ## Popups with Fancybox
 
 ---
