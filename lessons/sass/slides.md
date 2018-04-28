@@ -103,7 +103,7 @@ Sass looks a bit like this:
 
 ## Sassy CSS
 
-http://codepen.io/guyroutledge/pen/ORvqaL
+[https://codepen.io/pataruco/pen/deNPmd](https://codepen.io/pataruco/pen/deNPmd)
 
 ---
 
