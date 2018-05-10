@@ -102,9 +102,9 @@ Semantic HTML doesn't take longer to write than non-semantic (bad) markup if you
 
 Benefits:
 
-* Easier to develop with — as mentioned above, you get some functionality for free, plus it is arguably easier to understand.
-* Better on mobile — semantic HTML is arguably lighter in file size than non-semantic spaghetti code, and easier to make responsive.
-* Good for SEO — search engines give more importance to keywords inside headings, links, etc., than keywords included in non-semantic `<div>`s, etc., so your documents will be more findable by customers.
+* **Easier to develop with**: you get some functionality for free, plus it is arguably easier to understand.
+* **Better on mobile**: semantic HTML is arguably lighter in file size than non-semantic spaghetti code, and easier to make responsive.
+* **Good for SEO**:search engines give more importance to keywords inside headings, links, etc., than keywords included in non-semantic `<div>`s, etc., so your documents will be more findable by customers.
 
 ---
 
@@ -286,7 +286,7 @@ An important point about **WAI-ARIA** attributes is that they don't affect anyth
 
 ### Accessible multimedia
 
-Another category of content that can create accessibility problems is multimedia — video, audio, and image content need to be given proper textual alternatives so they can be understood by assistive technologies and their users.
+Another category of content that can create accessibility problems is multimedia video, audio, and image content need to be given proper textual alternatives so they can be understood by assistive technologies and their users.
 
 ---
 
