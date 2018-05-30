@@ -38,7 +38,7 @@ Let's list that, shall we?!
 
 Ask for a pay rise!
 
-Yes, you hear me right, your training have give an edge that can diffentiate you from your colleagues
+Yes, you hear me right.
 
 Just ask it... they can say no, but what happens if they say yes?!
 
@@ -90,13 +90,13 @@ Do code free courses
 Dive into JavaScript
 
 [JavaScript is the MOST popular technology so far in 2018](https://insights.stackoverflow.com/survey/2018/#technology)
-and it's [very well](https://insights.stackoverflow.com/survey/2018/#top-paying-technologies) payed
+and it's [well](https://insights.stackoverflow.com/survey/2018/#top-paying-technologies) payed
 
 ---
 
 ## Next steps
 
-Read and follow front end blogs... even if you don't understand it... yet
+Read and follow front end blogs... even if you don't **(yet)** understand it
 
 * [Alligator](https://alligator.io)
 * [Smashing Magazine](https://www.smashingmagazine.com)
@@ -117,4 +117,4 @@ Please, fill this feedback form.
 
 ## Final Presentations
 
-I create this [randomniser](http://pataruco.github.io/random-picker/) to be sort out how is going to present
+I create this [randomniser](http://pataruco.github.io/random-picker/) to sort who is going to present
