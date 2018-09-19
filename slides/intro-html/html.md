@@ -37,7 +37,7 @@ class: center, middle
 
 ## Pedro Martin
 
-![](https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/7/20/1437405084174/3e782722-ff07-4a19-8031-22a7e92c7921-2060x1373.jpeg?w=620&q=55&auto=format&usm=12&fit=max&s=17a0d724be4fbbaebcfbd02ea84aab6c)
+.image-half[![](https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/7/20/1437405084174/3e782722-ff07-4a19-8031-22a7e92c7921-2060x1373.jpeg?w=620&q=55&auto=format&usm=12&fit=max&s=17a0d724be4fbbaebcfbd02ea84aab6c)]
 
 ---
 
@@ -56,18 +56,16 @@ class: center, middle
 
 # Who are we
 
-## Pedro Martin
-
 ### Recent projects
 
-- **HSBC**, React Native proof of concept Software Engineer
-- **Red Badger**, Badger Way - dev edition Instructional designer
-- **Pride in London** app build, Software Engineer
-- **Santander**, React Native proof of concept Software Engineer
-- **Santander**, Corporate Open Banking Software Engineer
-- **British Army**, Web Developer
-- **Mc Donald’s**, Web Developer
-- **Volkswagen**, Web Developer
+- **HSBC**, React Native proof of concept _Software Engineer_
+- **Red Badger**, Badger Way - dev edition _Instructional designer_
+- **Pride in London** app build, _Software Engineer_
+- **Santander**, React Native proof of concept _Software Engineer_
+- **Santander**, Corporate Open Banking _Software Engineer_
+- **British Army**, PHP, Laravel build _Web Developer_
+- **Mc Donald’s**, PHP, Laravel build _Web Developer_
+- **Volkswagen**, PHP, Laravel build _Web Developer_
 
 ---
 
@@ -138,8 +136,10 @@ class: center, middle
 
 # The 3 Layers of the Web
 
-<iframe height='265' scrolling='no' title='3 Layers of the Web' src='//codepen.io/pataruco/embed/preview/oPNzyd/?theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%; height: 30vh;'>See the Pen <a href='https://codepen.io/pataruco/pen/oPNzyd/'>3 Layers of the Web</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='265' scrolling='no' title='3 Layers of the Web' src='//codepen.io/pataruco/embed/oPNzyd/?height=265&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/pataruco/pen/oPNzyd/'>3 Layers of the Web</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+[CodePen](https://codepen.io/pataruco/pen/oPNzyd/)
 
 ---
 
@@ -201,9 +201,7 @@ There are two important categories of elements in HTML which you should know abo
 
 ---
 
-# Block versus inline elements
-
-## Block
+# Block
 
 - They will appear on a new line from whatever content went before it, and any content that goes after it will also appear on a new line.
 - Tend to be structural elements on the page that represent, for example, paragraphs, lists, navigation menus, footers, etc.
@@ -219,8 +217,6 @@ There are two important categories of elements in HTML which you should know abo
 ```
 
 ---
-
-# Block versus inline elements
 
 ## Inline
 
