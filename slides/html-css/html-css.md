@@ -285,6 +285,9 @@ There are four main image file formats:
 
 <iframe scrolling='no' title='Document and website structure' src='//codepen.io/pataruco/embed/preview/qMBedq/?theme-id=dark&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%; height: 30vh;'>See the Pen <a href='https://codepen.io/pataruco/pen/qMBedq/'>Document and website structure</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+[CodePen](https://codepen.io/pataruco/full/qMBedq/)
+
 ---
 
 # Intro to Cascading Style Sheets (CSS)
@@ -441,8 +444,10 @@ Using inline styles
 
 Absolute vs relative
 
-<iframe scrolling='no' title='CSS values and units' src='//codepen.io/pataruco/embed/preview/vzEKOO/?theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%; height: 30vh;'>See the Pen <a href='https://codepen.io/pataruco/pen/vzEKOO/'>CSS values and units</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='265' scrolling='no' title='CSS values and units' src='//codepen.io/pataruco/embed/vzEKOO/?height=265&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/pataruco/pen/vzEKOO/'>CSS values and units</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+[CodePen](https://codepen.io/pataruco/pen/vzEKOO)
 
 ---
 
@@ -761,5 +766,3 @@ Here are some examples
 
 - Create a folder using the following convention `name-surename-week-1`, e.g `pedro-martin-week-1`
 - Submit your work via Slack (even it's not finished) by **Sunday** 11:59 PM to the instructors
-
-[Instructions](../homework/instructions.md)
