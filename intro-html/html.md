@@ -29,7 +29,26 @@ class: center, middle
 
 # Who are we
 
+---
+
 ## Jack May
+
+.image-third[![](https://pataruco.s3.amazonaws.com/public/jack-may.jpg)]
+
+---
+
+### Core Skills
+
+- JavaScript
+- HTML
+- CSS
+- React
+
+---
+
+### Recent projects
+
+- [Wildbrain](https://www.wildbrain.com/)
 
 ---
 
@@ -325,7 +344,7 @@ from its underside.<p>
 
 # Code along
 
-## Press release exercise
+## [Press release exercise](https://raw.githubusercontent.com/pataruco/fewd-lessons/master/intro-html/code-along/press-release.txt?token=AJ2gbmCf_ML_q3xVJrjAGzQ20lGFLcwRks5bsmkewA%3D%3D)
 
 ???
 Add a link
