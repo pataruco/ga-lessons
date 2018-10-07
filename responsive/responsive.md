@@ -71,6 +71,8 @@ The important takeaway is that a responsive site uses the same codebase to achie
 
 # Mobile boxes
 
+[CodePen](https://codepen.io/pataruco/pen/XxNbLp)
+
 ---
 
 # Fluid layout
@@ -173,15 +175,21 @@ To make our Media queries work we need to add this special metatag to the headin
 # Using media queries
 
 ```css
-/* float boxes into columns */
 .row {
-  float: left;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 800px) {
-  .box {
-    float: none;
+.column {
+  flex-basis: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+@media screen and (min-width: 600px) {
+  .row {
+    flex-direction: row;
   }
 }
 ```
