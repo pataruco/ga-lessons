@@ -1,10 +1,10 @@
 class: center, middle
 
-# .center[Lunch & Learn]
+# .center[Layouts with Flexbox]
 
-## .center[Flexbox]
+## .center[Pedro Martin]
 
-.logo[![](../../assets/sally.svg)]
+.logo[![](../../assets/ga.svg)]
 
 ---
 
@@ -66,6 +66,8 @@ When we describe flexbox as being one dimensional we are describing the fact tha
 <iframe scrolling='no' title='Layout inline-block' src='//codepen.io/pataruco/embed/preview/WKyjja/?height=265&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%; height: 30vh;'>See the Pen <a href='https://codepen.io/pataruco/pen/WKyjja/'>Layout inline-block</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
+[CodePen](https://codepen.io/pataruco/pen/WKyjja/)
+
 ---
 
 # Why we should use it?
@@ -74,6 +76,8 @@ When we describe flexbox as being one dimensional we are describing the fact tha
 
 <iframe scrolling='no' title='Layout float' src='//codepen.io/pataruco/embed/preview/ZjRyWO/?height=265&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%; height: 30vh;'>See the Pen <a href='https://codepen.io/pataruco/pen/ZjRyWO/'>Layout float</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+[CodePen](https://codepen.io/pataruco/pen/ZjRyWO/)
 
 ---
 
@@ -84,17 +88,14 @@ When we describe flexbox as being one dimensional we are describing the fact tha
 <iframe scrolling='no' title='Layout flexbox' src='//codepen.io/pataruco/embed/preview/yqEXVe/?height=265&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%; height: 30vh;'>See the Pen <a href='https://codepen.io/pataruco/pen/yqEXVe/'>Layout flexbox</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
----
-
-# Why we should use it?
-
-Is the default layout on native
+[CodePen](https://codepen.io/pataruco/pen/yqEXVe/)
 
 ---
 
 # Why we should use it?
 
-No coming changes on the distant [future](https://www.w3.org/TR/?title=flex)
+- No coming changes on the distant [future](https://www.w3.org/TR/?title=flex)
+- Is the default layout on native
 
 ---
 
@@ -105,12 +106,16 @@ Let's talk about `direction` & `align`
 <iframe scrolling='no' title='Flexbox core concept' src='//codepen.io/pataruco/embed/preview/pZZmNK/?height=265&theme-id=dark&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;height: 30vh;'>See the Pen <a href='https://codepen.io/pataruco/pen/pZZmNK/'>Flexbox core concept</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
+[CodePen](https://codepen.io/pataruco/pen/pZZmNK/)
+
 ---
 
 # How it works?
 
 <iframe  scrolling='no' title='Flexbox 1st example' src='//codepen.io/pataruco/embed/preview/VBBOEm/?height=265&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%; height: 30vh;'>See the Pen <a href='https://codepen.io/pataruco/pen/VBBOEm/'>Flexbox 1st example</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+[CodePen](https://codepen.io/pataruco/pen/VBBOEm/)
 
 ---
 
@@ -396,4 +401,3 @@ class: center, middle
 # Next steps
 
 - Do [Flex Froggy](https://flexboxfroggy.com/)
-- Implement [LostGrid](http://lostgrid.org/) which is a PostCSS Grid Framework
