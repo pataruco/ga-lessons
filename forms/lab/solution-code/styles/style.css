@@ -17,7 +17,7 @@ label {
   display: block;
   width: 100%;
   padding: 0.25em;
-  border-radius: 0.25em;
+  /* border-radius: 0.25em; */
 }
 
 input:not([type='button']):not([type='submit']),
@@ -76,4 +76,18 @@ textarea {
   border: 1px solid --var(grey);
   border-radius: 0.25em;
   -webkit-appearance: none;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .left {
+    flex-basis: 0;
+  }
+
+  .buttons {
+    flex-basis: auto;
+  }
 }
