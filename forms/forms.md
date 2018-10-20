@@ -68,6 +68,15 @@ Attributes on the form tag determine:
 
 ---
 
+# Forms inputs
+
+<iframe height='265' scrolling='no' title='GA London Input' src='//codepen.io/pataruco/embed/BjoQRK/?height=265&theme-id=0&default-tab=html,result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/pataruco/pen/BjoQRK/'>GA London Input</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+[CodePen](https://codepen.io/pataruco/pen/BjoQRK)
+
+---
+
 # Form inputs
 
 An example of a form input and some of the available attributes
