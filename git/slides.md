@@ -1,8 +1,12 @@
-![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
+class: center, middle
 
-# Version Control
+# .center[Version Control]
 
-### Pedro Martin
+## .center[Pedro Martin]
+
+.logo[![](../assets/ga.svg)]
+
+---
 
 ---
 
@@ -10,7 +14,7 @@
 
 By the end of the session you'll be able to:
 
-* Keep your project backed up and well organised
+- Keep your project backed up and well organised
 
 ---
 
@@ -24,19 +28,19 @@ Have you ever lost or overwritten some work that took you ages?
 
 **Version control** is a system that enables you to take regular _snapshots_ of your work in progress called _commits_. This enables:
 
-* Recording the history of a project
-* Constant backups of your work
-* A more organised development workflow
-* A safer way to collaborate with others
-* Tools for publishing your work online
+- Recording the history of a project
+- Constant backups of your work
+- A more organised development workflow
+- A safer way to collaborate with others
+- Tools for publishing your work online
 
 ---
 
 ## Version control
 
-* Keeping your code organised helps you be more efficient.
-* Keeping your work backed up helps you stay sane.
-* Going back over the history of a project helps you learn.
+- Keeping your code organised helps you be more efficient.
+- Keeping your work backed up helps you stay sane.
+- Going back over the history of a project helps you learn.
 
 ---
 
@@ -78,21 +82,21 @@ You have a **local** repo on your laptop and a **remote** repo online and the tw
 
 A typical git workflow goes like this:
 
-* Create a project folder
-* Initialize it as a git project
-* Write some code
-* Check the status of what files/folders have changed
-* Mark one or more files to be added into the next snapshot
+- Create a project folder
+- Initialize it as a git project
+- Write some code
+- Check the status of what files/folders have changed
+- Mark one or more files to be added into the next snapshot
 
 ---
 
 ## Version control process
 
-* Take a snapshot and write a message describing what you did and why
-* Write some more code
-* Create the next snapshot
-* Rinse and repeat often
-* Push your changes to an online repository
+- Take a snapshot and write a message describing what you did and why
+- Write some more code
+- Create the next snapshot
+- Rinse and repeat often
+- Push your changes to an online repository
 
 ---
 
@@ -116,21 +120,21 @@ Think of each commit message like an email. You have a brief subject and (an opt
 
 ## GitHub desktop workflow
 
-* Create a new project via the `+` button
-* Select the `create` tab
-* Add a name for your project folder
-* Choose where to save it
-* Write some code
-* Switch back to Github and check the `changes` tab
+- Create a new project via the `+` button
+- Select the `create` tab
+- Add a name for your project folder
+- Choose where to save it
+- Write some code
+- Switch back to Github and check the `changes` tab
 
 ---
 
 ## GitHub desktop workflow
 
-* Select the files to be committed
-* Write a commit message
-* Click `commit to master`
-* Write some more code, commit again
-* Check the history of changes
-* Publish your repo to Github
-* Code, commit and sync work regularly
+- Select the files to be committed
+- Write a commit message
+- Click `commit to master`
+- Write some more code, commit again
+- Check the history of changes
+- Publish your repo to Github
+- Code, commit and sync work regularly

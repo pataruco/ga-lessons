@@ -1,16 +1,20 @@
-![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
+class: center, middle
 
-# jQuery plugins
+# .center[Intro jQuery plugins]
 
-### Pedro Martin
+## .center[Pedro Martin]
+
+.logo[![](../assets/ga.svg)]
+
+---
 
 ---
 
 ## Agenda
 
-* Scroll Triggers
-* Fancy Popups
-* Carousel
+- Scroll Triggers
+- Fancy Popups
+- Carousel
 
 ---
 
@@ -30,11 +34,11 @@ They are just jQuery code that you could write yourself, but instead of "reinven
 
 Using plugins has the following benefits:
 
-* You don't have to be a JavaScript ninja to have a visually rich project Huge time savings
-* Most are very customisable
-* Most are open source (free)
-* Most have been well tested and improved over time Most have been well documented
-* Most have working examples for you to copy+paste
+- You don't have to be a JavaScript ninja to have a visually rich project Huge time savings
+- Most are very customisable
+- Most are open source (free)
+- Most have been well tested and improved over time Most have been well documented
+- Most have working examples for you to copy+paste
 
 ---
 
@@ -42,9 +46,9 @@ Using plugins has the following benefits:
 
 However, with all this goodness, there are some downsides:
 
-* Using loads of plugins adds to page weight
-* Some plugins aren't very flexible/stable/well made
-* Some functionality is so simple, you don't really need a plugin
+- Using loads of plugins adds to page weight
+- Some plugins aren't very flexible/stable/well made
+- Some functionality is so simple, you don't really need a plugin
 
 ---
 
