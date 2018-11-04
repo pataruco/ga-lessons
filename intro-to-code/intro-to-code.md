@@ -40,7 +40,7 @@ class: fullscreen, bg-black
 
 By the end of this workshop, our goal is to build a simple **responsive** web page.
 
-# [Link to zip file]()
+# [http://bit.ly/GAIntroToCode](http://bit.ly/GAIntroToCode)
 
 ???
 
@@ -532,3 +532,9 @@ class: fullscreen, bg-burgundy
 class: fullscreen, bg-black
 
 # Questions
+
+---
+
+# Solution
+
+## [http://bit.ly/GAIntroToCodeSolution](http://bit.ly/GAIntroToCodeSolution)
