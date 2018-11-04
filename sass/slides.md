@@ -1,8 +1,12 @@
-![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
+class: center, middle
 
-# Sass
+# .center[Sass]
 
-### Pedro Martin
+## .center[Pedro Martin]
+
+.logo[![](../assets/ga.svg)]
+
+---
 
 ---
 
@@ -10,15 +14,15 @@
 
 Objective
 
-* Add superpowers to your CSS
+- Add superpowers to your CSS
 
 ---
 
 ## Sass
 
-* Sass is a pre-processor that gives **CSS** super powers.
-* It's very similar to CSS but has lots of extra features that make writing your styling code faster, more eficient, more maintainable and more organised.
-* Sass stands for **S**yntastically **A**wesomes **S**tyle **S**heets and was invented by Hampton Catlin in 2006.
+- Sass is a pre-processor that gives **CSS** super powers.
+- It's very similar to CSS but has lots of extra features that make writing your styling code faster, more eficient, more maintainable and more organised.
+- Sass stands for **S**yntastically **A**wesomes **S**tyle **S**heets and was invented by Hampton Catlin in 2006.
 
 ---
 
@@ -55,11 +59,11 @@ Any file with a `.scss` extension will be compiled into a corresponding `.css` f
 
 ## Sass files
 
-* Files that start with an **\_**underscore character aren't compiled but can be `@imported` into a Sass file that will be compiled.
+- Files that start with an **\_**underscore character aren't compiled but can be `@imported` into a Sass file that will be compiled.
 
-* These files are called Sass partials and might look like `_nav.scss` or `_about-page.scss`.
+- These files are called Sass partials and might look like `_nav.scss` or `_about-page.scss`.
 
-* This helps with code organisation and instead of having one massive CSS file, we can have lots of smaller Sass files that get combined into one by the compiler.
+- This helps with code organisation and instead of having one massive CSS file, we can have lots of smaller Sass files that get combined into one by the compiler.
 
 ---
 
@@ -67,16 +71,16 @@ Any file with a `.scss` extension will be compiled into a corresponding `.css` f
 
 The Sass compiler enables us to do more powerful things like:
 
-* Combining and compressing files
-* Nested selectors and media queries
-* Variables
-* Maths
-* Colour manipulation
-* Functions
-* Mixins
-* Loops
-* Conditional Statements
-* And much more!
+- Combining and compressing files
+- Nested selectors and media queries
+- Variables
+- Maths
+- Colour manipulation
+- Functions
+- Mixins
+- Loops
+- Conditional Statements
+- And much more!
 
 ---
 
@@ -119,9 +123,9 @@ But if we want to use Sass in a project we're building locally, we need an appli
 Sass is often compiled via the command line but this is quite advanced for beginners.
 Here are some free apps you can use instead:
 
-* Scout
-* Koala
-* Compass
+- Scout
+- Koala
+- Compass
 
 ---
 

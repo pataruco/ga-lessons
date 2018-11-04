@@ -1,16 +1,20 @@
-![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
+class: center, middle
 
-# Intro jQuery
+# .center[intro jQuery]
 
-### Pedro Martin
+## .center[Pedro Martin]
+
+.logo[![](../assets/ga.svg)]
+
+---
 
 ---
 
 ## Agenda
 
-* JavaScript Recap
-* jQuery Intro
-* jQuery Practical
+- JavaScript Recap
+- jQuery Intro
+- jQuery Practical
 
 ---
 
@@ -40,12 +44,12 @@ jQuery is a cross browswer JavaScript library designed to simplify the client si
 
 ## jQuery provides
 
-* More consistent and readable syntax
-* More powerful element selecting
-* Easier classname and CSS manipulation
-* Powerful event binding and handling Animation
-* AJAX (asyncronous requests)
-* Loads of plugins
+- More consistent and readable syntax
+- More powerful element selecting
+- Easier classname and CSS manipulation
+- Powerful event binding and handling Animation
+- AJAX (asyncronous requests)
+- Loads of plugins
 
 ---
 
@@ -87,9 +91,9 @@ $('#feature p').slideUp();
 
 ## jQuery
 
-* `$` is a function.
-* We can use it to find elements on a page:
-* The function returns a set of HTML elements you have selected as a jQuery object. This object provides lots of methods (actions) so now you can do stuff to that selection.
+- `$` is a function.
+- We can use it to find elements on a page:
+- The function returns a set of HTML elements you have selected as a jQuery object. This object provides lots of methods (actions) so now you can do stuff to that selection.
 
 ```js
 $("#searchBox") $(".errors")

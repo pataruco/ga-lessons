@@ -1,8 +1,12 @@
-![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
+class: center, middle
 
-# Intro Programming
+# .center[Intro to JavaScript]
 
-### Pedro Martin
+## .center[Pedro Martin]
+
+.logo[![](../assets/ga.svg)]
+
+---
 
 ---
 
@@ -14,12 +18,12 @@ Learn the building-blocks of JavaScript so we can add more interaction to the pa
 
 ## Agenda
 
-* What is JavaScript
-* The DOM
-* Events
-* Functions
-* Variables
-* Conditionals
+- What is JavaScript
+- The DOM
+- Events
+- Functions
+- Variables
+- Conditionals
 
 ---
 
@@ -29,13 +33,13 @@ Learn the building-blocks of JavaScript so we can add more interaction to the pa
 
 ## What is JavaScript?
 
-* Programming language in the browser
-* Created in 10 days back in 1995 by Brendan Eiche
-* Used to add interaction to the page
-* Used to add complex functionality
-* Often driven by user initiated events
-* Very powerful
-* Nothing to do with Java
+- Programming language in the browser
+- Created in 10 days back in 1995 by Brendan Eiche
+- Used to add interaction to the page
+- Used to add complex functionality
+- Often driven by user initiated events
+- Very powerful
+- Nothing to do with Java
 
 ---
 
@@ -45,9 +49,9 @@ Learn the building-blocks of JavaScript so we can add more interaction to the pa
 
 ## Examples
 
-* [Codepen](https://codepen.io/pataruco/pen/MVMKyJ?editors=1010)
-* [Student example](http://pataruco.s3.amazonaws.com/ga/tic-tac-toe/index.html)
-* [Red Badger](https://www.red-badger.com)
+- [Codepen](https://codepen.io/pataruco/pen/MVMKyJ?editors=1010)
+- [Student example](http://pataruco.s3.amazonaws.com/ga/tic-tac-toe/index.html)
+- [Red Badger](https://www.red-badger.com)
 
 ---
 
@@ -147,9 +151,9 @@ Imagine a pen. It is an object. It is made up of a lid, the pen tip and the ink 
 
 A pen can be described in a couple of ways:
 
-* The pen is red
+- The pen is red
 
-* The pen can write
+- The pen can write
 
 We can describe the object as having properties (like its colour) and methods (actions like writing)
 
@@ -182,13 +186,13 @@ We can write this out in "normal" language first (**Pseudocode**)
 
 There are many events that occur in the browser as the user interacts with the page:
 
-* click
-* submit
-* resize
-* scroll
-* hover
-* touch
-* drag and drop
+- click
+- submit
+- resize
+- scroll
+- hover
+- touch
+- drag and drop
 
 ---
 
@@ -212,10 +216,10 @@ The function contains a series of instructions which allow us to build up more c
 
 ## Variables
 
-* We can tell our program to remember values for us to use later on.
-* Their values can change over time (ie. they can vary)
-* The action of setting a variable value is called assignment
-* The action of getting the value from a variable is called accessing the variable
+- We can tell our program to remember values for us to use later on.
+- Their values can change over time (ie. they can vary)
+- The action of setting a variable value is called assignment
+- The action of getting the value from a variable is called accessing the variable
 
 ---
 
@@ -251,9 +255,9 @@ score; // returns 10
 
 ## Variable Conventions
 
-* Variable names start with a lower case letter or `_` or `$` character
-* Variables can't start with a number
-* If they contain multiple words, subsequent words start with an upper case letter. This is known as camelCase.
+- Variable names start with a lower case letter or `_` or `$` character
+- Variables can't start with a number
+- If they contain multiple words, subsequent words start with an upper case letter. This is known as camelCase.
 
 ```js
 var numberOfStudents = 10;
@@ -265,19 +269,19 @@ var numberOfStudents = 10;
 
 We can store lots of different types of information in variables.
 
-* `String` for text
-* `Integer` or `Float` for numbers
-* `Boolean` true or false values
-* `Array` collections of data
-* `Objects` contain series of `key:value`pairs
-* `Functions`
+- `String` for text
+- `Integer` or `Float` for numbers
+- `Boolean` true or false values
+- `Array` collections of data
+- `Objects` contain series of `key:value`pairs
+- `Functions`
 
 ---
 
 ## Strings
 
-* Stores text content
-* String literal is surrounded by quotes
+- Stores text content
+- String literal is surrounded by quotes
 
 ```js
 var question = 'How is the weather today?';
@@ -545,9 +549,9 @@ if (day === 'Tuesday' || day === 'Thursday') {
 
 A function definition consists of the function keyword, followed by:
 
-* The name of the function.
-* A list of parameters to the function, enclosed in parentheses (`()`) and separated by commas.
-* The JavaScript statements that define the function, enclosed in curly brackets, `{ }`.
+- The name of the function.
+- A list of parameters to the function, enclosed in parentheses (`()`) and separated by commas.
+- The JavaScript statements that define the function, enclosed in curly brackets, `{ }`.
 
 ```js
 function square(number) {

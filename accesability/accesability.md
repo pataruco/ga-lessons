@@ -4,7 +4,7 @@ class: center, middle
 
 ## .center[Pedro Martin]
 
-.logo[![](../../assets/ga.svg)]
+.logo[![](../assets/ga.svg)]
 
 ---
 
