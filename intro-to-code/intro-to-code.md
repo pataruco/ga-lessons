@@ -1,9 +1,8 @@
-class: center, middle, red
+class: fullscreen, bg-red
 
-# .center[Welcome to General Assembly]
+# Welcome to General Assembly
 
-.logo[![](../assets/ga.svg)]
-
+.image-one-fourth[![](../assets/ga-white.svg)]
 ???
 
 - Good evening! I’d like to welcome everyone to General Assembly for intro to code. How’s everybody doing?
@@ -27,13 +26,13 @@ class: center, middle, red
 
 ---
 
-class: center, middle, red
+class: fullscreen, bg-black
 
-# .center[Intro to coding]
+# Intro to coding
 
-## .center[HTML & CSS]
+## HTML & CSS
 
-.logo[![](../assets/ga.svg)]
+.image-one-fourth[![](../assets/ga-white.svg)]
 
 ---
 
@@ -72,7 +71,7 @@ By the end of this workshop, our goal is to build a simple **responsive** web pa
 
 ## Detailed
 
-.image-three-fourths[![](https://mdn.mozillademos.org/files/13839/Web%20Application%20with%20HTML%20and%20Steps.png)]
+.image-two-thirds[![](https://mdn.mozillademos.org/files/13839/Web%20Application%20with%20HTML%20and%20Steps.png)]
 
 ---
 
@@ -113,6 +112,8 @@ The development process can be broken into two areas:
 
 ---
 
+class: fullscreen, bg-teal
+
 # Tools We'll be using
 
 ---
@@ -150,7 +151,7 @@ For this workshop, we’ll be **[Visual Studio Code](https://code.visualstudio.c
 ]
 .column[
 
-- We recommend using **Google Chrome**.
+- We recommend using **[Google Chrome](https://www.google.com/chrome/)**.
 - It’s free
 - It provides many developer-friendly tools!
   ]
@@ -166,6 +167,14 @@ For this workshop, we’ll be **[Visual Studio Code](https://code.visualstudio.c
 - On **Windows**: open the zip folder and hit `Extract all` in the menu bar
 - Open **Visual Studio Code**
 - Drag the entire folder you unzipped onto the **Visual Studio Code**
+
+---
+
+class: fullscreen, bg-burgundy
+
+# HTML
+
+## Hypertext Markup Language
 
 ---
 
@@ -387,9 +396,13 @@ A basic link is created by wrapping the text or other content, you want to turn 
 
 ---
 
-# Let’S get writing!
+class: fullscreen, bg-yellow
+
+# Let’s get writing!
 
 ---
+
+class: fullscreen, bg-pink
 
 # CSS
 
@@ -494,20 +507,28 @@ P
 
 ---
 
+class: fullscreen, bg-yellow
+
 # Let’s style things up!
 
 ---
 
-# Please, shaee your feedback
+class: fullscreen, bg-teal
+
+# Please, share your feedback
 
 ## [Link](link)
 
 ---
+
+class: fullscreen, bg-burgundy
 
 # We appreciate your feedback!
 
 ### Please take 2 mins to complete our survey.
 
 ---
+
+class: fullscreen, bg-black
 
 # Questions
