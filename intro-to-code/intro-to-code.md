@@ -52,6 +52,8 @@ By the end of this workshop, our goal is to build a simple **responsive** web pa
 
 # How the Web works?
 
+## Simple
+
 .image-half[![](https://mdn.mozillademos.org/files/8973/Client-server.jpg)]
 
 ???
@@ -63,6 +65,14 @@ By the end of this workshop, our goal is to build a simple **responsive** web pa
 - Let’s see just how many requests and responses are needed to build a typical page
 - Remember, pages are not single files, like a PDF!
 - Load a common page, like **Wikipedia** and with the inspector open to show how many requests are needed to build the page
+
+---
+
+# How the Web works?
+
+## Detailed
+
+.image-three-fourths[![](https://mdn.mozillademos.org/files/13839/Web%20Application%20with%20HTML%20and%20Steps.png)]
 
 ---
 
@@ -377,4 +387,127 @@ A basic link is created by wrapping the text or other content, you want to turn 
 
 ---
 
-# LET’S GET WRITING!
+# Let’S get writing!
+
+---
+
+# CSS
+
+## Cascade Style Sheets
+
+???
+
+- Now we’re moving on to the `presentation` or `styling` of our web page
+- Let’s break down what this name means
+
+  - “Cascading” refers to the ability to have rules in different places that can override other rules
+    - Why is this important? We’re going to touch on this a bit when we make our website responsive and we will see how styles are applied by priority
+  - “Style Sheets” is important in understanding these presentation concerns as separate (and often multiple) files
+  - We want to keep our presentation concerns in these style sheets, not in our HTML
+
+---
+
+# Cascading Style Sheets (CSS)
+
+## How it looks?
+
+```html
+<h1>Hello World!</h1>
+<p>This is my first CSS example</p>
+```
+
+```css
+h1 {
+  color: blue;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+p {
+  color: red;
+}
+```
+
+---
+
+# How does CSS actually work?
+
+![](https://mdn.mozillademos.org/files/11781/rendering.svg)
+
+---
+
+# How does CSS actually work?
+
+## About the DOM
+
+Document Object Model (**DOM**) represents the document in the computer's memory. It combines the document's content with its style.
+
+A DOM has a tree-like structure. Each element, attribute and piece of text in the markup language becomes a DOM node in the tree structure. The nodes are defined by their relationship to other DOM nodes. Some elements are parents of child nodes, and child nodes have siblings.
+
+---
+
+# How does CSS actually work?
+
+```html
+<p>
+  Let's use:
+  <span>Cascading</span>
+  <span>Style</span>
+  <span>Sheets</span>
+</p>
+```
+
+```text
+P
+├─ "Let's use:"
+├─ SPAN
+|  └─ "Cascading"
+├─ SPAN
+|  └─ "Style"
+└─ SPAN
+   └─ "Sheets"
+```
+
+---
+
+# CSS Building blocks
+
+## Declarations
+
+.image-half[![](https://mdn.mozillademos.org/files/3665/css%20syntax%20-%20declaration.png)]
+
+---
+
+# CSS Building blocks
+
+## Declaration blocks
+
+.image-half[![](https://mdn.mozillademos.org/files/3667/css%20syntax%20-%20declarations%20block.png)]
+
+---
+
+# CSS Building blocks
+
+## Selectors and rules
+
+.image-half[![](https://mdn.mozillademos.org/files/3668/css%20syntax%20-%20ruleset.png)]
+
+---
+
+# Let’s style things up!
+
+---
+
+# Please, shaee your feedback
+
+## [Link](link)
+
+---
+
+# We appreciate your feedback!
+
+### Please take 2 mins to complete our survey.
+
+---
+
+# Questions
