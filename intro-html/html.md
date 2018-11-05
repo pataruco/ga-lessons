@@ -12,7 +12,6 @@ class: center, middle
 
 - In that year ...
 - Who are we
-- Crazy eight's(ish)
 - Tell the difference...
 - The 3 Layers of the Web
 - HTML
@@ -30,29 +29,6 @@ class: center, middle
 # Who are we
 
 ---
-
-## Jack May
-
-.image-third[![](https://pataruco.s3.amazonaws.com/public/jack-may.jpg)]
-
----
-
-### Core Skills
-
-- JavaScript
-- HTML
-- CSS
-- React
-
----
-
-### Recent projects
-
-- [Wildbrain](https://www.wildbrain.com/)
-
----
-
-# Who are we
 
 ## Pedro Martin
 
@@ -98,20 +74,6 @@ class: center, middle
 - _Universidad Central de Venezuela_ | **Education BSc** | 2005 - 2010
 - _Adventure Based Counseling_, Bogota | **Instructor** |2003
 - _Universidad Central de Venezuela_ | **Geological Engineer** | 1999 - 2001 (not completed)
-
----
-
-# Crazy Eight's
-
-Please draw 4 crazy **bad** ideas on how you want to finish this course.
-
----
-
-# Crazy Eight's
-
-Please draw 4 crazy **good** ideas on how you want to finish this course.
-
----
 
 # Tell the difference...
 

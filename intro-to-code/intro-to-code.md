@@ -230,30 +230,12 @@ class: fullscreen, bg-burgundy
 
 ---
 
-# Nesting elements
-
-## Good:
-
-```html
-<p>My cat is <strong>very</strong> grumpy.</p>
-```
-
-## ~~Bad~~:
-
-```html
-<p>My cat is <strong>very grumpy.</p></strong>
-```
-
----
-
 # Empty elements
 
 Are self closing elements
 
 ```html
 <img src="https://api.peteroftheday.com/random" alt="A random Picture of Peter Martin"/>
-<hr/>
-<input type="color" id="color"/>
 ```
 
 ---
@@ -445,22 +427,6 @@ p {
 
 # How does CSS actually work?
 
-![](https://mdn.mozillademos.org/files/11781/rendering.svg)
-
----
-
-# How does CSS actually work?
-
-## About the DOM
-
-Document Object Model (**DOM**) represents the document in the computer's memory. It combines the document's content with its style.
-
-A DOM has a tree-like structure. Each element, attribute and piece of text in the markup language becomes a DOM node in the tree structure. The nodes are defined by their relationship to other DOM nodes. Some elements are parents of child nodes, and child nodes have siblings.
-
----
-
-# How does CSS actually work?
-
 ```html
 <p>
   Let's use:
@@ -513,11 +479,9 @@ class: fullscreen, bg-yellow
 
 ---
 
-class: fullscreen, bg-teal
-
 # Please, share your feedback
 
-## [Link](link)
+## [https://ga.co/survey](https://ga.co/survey)
 
 ---
 
