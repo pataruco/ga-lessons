@@ -301,24 +301,6 @@ To have more control over flex items we can target them directly. We do this by 
 
 # Flex items
 
-`flex-shrink`: flex items will shrink to fill the container according to the flex-shrink number, when the default size of flex items is larger than the flex container.
-
-```css
-.container {
-  display: flex;
-}
-
-.item {
-  flex-shrink: 1;
-}
-```
-
-**[Playground 2](https://codepen.io/pataruco/pen/BPbYPe)**
-
----
-
-# Flex items
-
 `flex-basis`: specifies the initial main size of a flex item. This property determines the size of the content-box
 
 ```css
@@ -328,6 +310,24 @@ To have more control over flex items we can target them directly. We do this by 
 
 .item {
   flex-basis: 33%;
+}
+```
+
+**[Playground 2](https://codepen.io/pataruco/pen/BPbYPe)**
+
+---
+
+# Flex items
+
+`flex-shrink`: flex items will shrink to fill the container according to the flex-shrink number, when the default size of flex items is larger than the flex container.
+
+```css
+.container {
+  display: flex;
+}
+
+.item {
+  flex-shrink: 1;
 }
 ```
 
