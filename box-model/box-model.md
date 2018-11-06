@@ -150,7 +150,7 @@ An [interactive demo](http://guyroutledge.github.io/box-model/) of the box model
 
 # Lab
 
-[Tag boxes](./)
+## Tag boxes
 
 ---
 
