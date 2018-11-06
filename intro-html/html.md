@@ -10,70 +10,10 @@ class: center, middle
 
 # Agenda
 
-- In that year ...
-- Who are we
-- Tell the difference...
 - The 3 Layers of the Web
 - HTML
 
 ---
-
-## In that year ...
-
-- Take a coin
-- See the year when was minted it
-- Please, tell us something fun that you did on that year
-
----
-
-# Who are we
-
----
-
-## Pedro Martin
-
-.image-half[![](https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/7/20/1437405084174/3e782722-ff07-4a19-8031-22a7e92c7921-2060x1373.jpeg?w=620&q=55&auto=format&usm=12&fit=max&s=17a0d724be4fbbaebcfbd02ea84aab6c)]
-
----
-
-### Core skills
-
-- JavaScript / TypeScript
-- Node.JS
-- React / React Native
-- PHP
-- Laravel
-- Ruby
-- Ruby on Rails
-- Animations ( CSS / JavaScript )
-
----
-
-# Who are we
-
-### Recent projects
-
-- **HSBC**, React Native proof of concept _Software Engineer_
-- **Red Badger**, Badger Way - dev edition _Instructional designer_
-- **Pride in London** app build, _Software Engineer_
-- **Santander**, React Native proof of concept _Software Engineer_
-- **Santander**, Corporate Open Banking _Software Engineer_
-- **British Army**, PHP, Laravel build _Web Developer_
-- **Mc Donald’s**, PHP, Laravel build _Web Developer_
-- **Volkswagen**, PHP, Laravel build _Web Developer_
-
----
-
-## Who are we
-
-### Pedro Martin
-
-#### Education
-
-- _General Assembly_, London | **Web Development** | 2013 - 2013
-- _Universidad Central de Venezuela_ | **Education BSc** | 2005 - 2010
-- _Adventure Based Counseling_, Bogota | **Instructor** |2003
-- _Universidad Central de Venezuela_ | **Geological Engineer** | 1999 - 2001 (not completed)
 
 # Tell the difference...
 
