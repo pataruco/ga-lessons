@@ -226,32 +226,10 @@ Note: These units, especially em and rem, are often used to create scalable layo
 
 # Font-relative lengths
 
-- `cap`: represents the "cap height" (nominal height of capital letters) of the element’s font.
-- `ch`: represents the width, or more precisely the advance measure, of the glyph "0" (zero, the Unicode character U+0030) in the element's font.
 - `em`: represents the calculated `font-size` of the element. If used on the font-size property itself, it represents the inherited font-size of the element.
-- `ex`: represents the x-height of the element's font. On fonts with the `"x"` letter, this is generally the height of lowercase letters in the font; 1ex ≈ 0.5em in many fonts.
-- `ic`: equal to the used advance measure of the `水` (CJK water ideograph, U+6C34) glyph found in the font used to render it.
-
----
-
-# Font-relative lengths
-
 - `lh`: Equal to the computed value of the line-height property of the element on which it is used, converted to an absolute length.
 - `rem`: Represents the font-size of the root element (typically <html>). When used within the root element font-size, it represents its initial value (a common browser default is 16px, but user-defined preferences may modify this).
 - `rlh`: Equal to the computed value of the line-height property on the root element (typically <html>), converted to an absolute length. When used on the font-size or line-height properties of the root element, it refers to the properties' initial value.
-
----
-
-# Font-relative lengths
-
-- `em`
-- `rem`
-- `lh`
-- `rlh`
-- ~~`cap`~~
-- ~~`ch`~~
-- ~~`ex`~~
-- ~~`ic`~~
 
 ---
 
@@ -267,10 +245,6 @@ Viewport-percentage lengths define the **length** value relative to the size of 
 
 - `vh`: equal to 1% of the height of the viewport's initial containing block.
 - `vw` equal to 1% of the width of the viewport's initial containing block.
-- `vi`: equal to 1% of the size of the initial containing block, in the direction of the root element’s inline axis.
-- `vb`: equal to 1% of the size of the initial containing block, in the direction of the root element’s block axis.
-- `vmin`: equal to the smaller of vw and vh.
-- `vmax`: equal to the larger of vw and vh.
 
 ---
 
@@ -278,10 +252,6 @@ Viewport-percentage lengths define the **length** value relative to the size of 
 
 - `vh`
 - `vw`
-- ~~`vi`~~
-- ~~`vb`~~
-- ~~`vmin`~~
-- ~~`vmax`~~
 
 ---
 
