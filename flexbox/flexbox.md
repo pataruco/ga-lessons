@@ -55,7 +55,7 @@ When we describe flexbox as being one dimensional we are describing the fact tha
 
 # Why we should use it?
 
-![](../../assets/flexbox/flexbox-support.png)
+## [Can I use Flexbox?](https://caniuse.com/#feat=flexbox)
 
 ---
 
