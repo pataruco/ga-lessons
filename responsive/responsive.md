@@ -60,21 +60,6 @@ The important takeaway is that a responsive site uses the same codebase to achie
 
 ---
 
-# Desktop boxes
-
-<iframe height='265' scrolling='no' title='Desktop boxes' src='https://codepen.io/pataruco/embed/VGWpRW/?height=265&theme-id=dark&default-tab=html,result&embed-version=3' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/pataruco/pen/VGWpRW/'>Desktop boxes</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
-[CodePen](https://codepen.io/pataruco/pen/VGWpRW)
-
----
-
-# Mobile boxes
-
-[CodePen](https://codepen.io/pataruco/pen/XxNbLp)
-
----
-
 # Fluid layout
 
 - Sized in percentages (or relative units)
@@ -306,5 +291,4 @@ Responsive Design testing can be tricky.
 Here are some tools to help:
 
 - Chrome Dev Tools
-- iOS Simulator
 - [BrowserStack](https://www.browserstack.com/)
