@@ -22,18 +22,18 @@ fewdLessons
 const fewdLessons = {
   accesability: 'accesability/accesability.md',
   animations: 'animations/animations.md',
-  boxModel: 'box-model/box-model.md',
-  cssSelectors: 'css-selectors/css-selectors.md',
+  boxModel: '../../slides/box-model/box-model.md',
+  cssSelectors: '../../slides/css-selectors/css-selectors.md',
   finalPresentations: 'final-presentations/slides.md',
-  flexbox: 'flexbox/flexbox.md',
+  flexbox: '../../slides/flexbox/flexbox.md',
   forms: 'forms/forms.md',
-  html: 'intro-html/html.md',
+  html: 'slides/intro-html/html.md',
   htmlCss: 'html-css/html-css.md',
   jquery: 'intro-jquery/slides.md',
   jqueryPlugins: 'intro-jquery-plugins/slides.md',
   js: 'intro-js/slides.md',
-  positioning: 'positioning/positioning.md',
-  responsive: 'responsive/responsive.md',
+  positioning: '../../slides/positioning/positioning.md',
+  responsive: '../../slides/responsive/responsive.md',
   svg: 'svg/svg.md',
 };
 
@@ -48,7 +48,17 @@ const introToCode = {
   introToCode: '../slides/intro-to-code/intro-to-code.md',
 };
 
+/*
+UXDI
+*/
+
+const uxdi = {
+  introJs: '../../slides/js-uxdi/intro-js.md',
+  positioning: '../../slides/positioning-uxdi/positioning.md',
+};
+
 export default {
   fewdLessons,
   introToCode,
+  uxdi,
 };
