@@ -54,7 +54,7 @@ The files are hosted in the cloud so you can share the finished product with oth
 
 **Creating your repo**
 
-!()[https://stooderrr.github.io/ga-fewd/dist/images/week-2/add-repo.png]
+![](https://stooderrr.github.io/ga-fewd/dist/images/week-2/add-repo.png)
 
 Either click the **Add a local repository** button on the homescreen or select `File > Add Local Repository` from the menu.
 
@@ -64,7 +64,7 @@ Either click the **Add a local repository** button on the homescreen or select `
 
 **Select project folder**
 
-!()[https://stooderrr.github.io/ga-fewd/dist/images/week-2/select-project-folder.png]
+![](https://stooderrr.github.io/ga-fewd/dist/images/week-2/select-project-folder.png)
 
 Select the project folder for your assignment. Then click the **create a repository** link in the sentence `Would you like to create a repository here instead?`
 
@@ -72,6 +72,49 @@ Select the project folder for your assignment. Then click the **create a reposit
 
 # Steps
 
-Add repo details
+**Add repo details**
 
-!()[https://stooderrr.github.io/ga-fewd/dist/images/week-2/add-repo-details.png]
+![](https://stooderrr.github.io/ga-fewd/dist/images/week-2/add-repo-details.png)
+
+---
+
+# Steps
+
+**Review files**
+
+![](https://stooderrr.github.io/ga-fewd/dist/images/week-2/review-changes.png)
+
+Review the files that have been changed since your last commit.
+
+---
+
+# Steps
+
+**Commit**
+
+![](https://stooderrr.github.io/ga-fewd/dist/images/week-2/commit-message.png)
+
+When you commit your changes, you are creating a unique 'snapshot' of your code. So be sure to write a meaningful commit message to help you find the correct 'snapshot' if you ever need to come back to this commit.
+
+---
+
+# Steps
+
+**Publish**
+
+![](https://stooderrr.github.io/ga-fewd/dist/images/week-2/publish-repo.png)
+Once you've committed your first changes, you can 'publish' your repo. This will push it up to Github.
+
+_Note: Always be sure to untick the 'Keep project private' checkbox so that we can review it._
+
+---
+
+# Steps
+
+**Push**
+
+![](https://stooderrr.github.io/ga-fewd/dist/images/week-2/sync-repo.png)
+
+Once your repo has been published, you'll then only be able to 'push' your changes. Every time you push after a commit, it will update the remote repo with your latest code.
+
+---
