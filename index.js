@@ -55,6 +55,7 @@ UXDI
 const uxdi = {
   introJs: '../../slides/js-uxdi/intro-js.md',
   positioning: '../../slides/positioning-uxdi/positioning.md',
+  git: '../../slides/git-uxdi/slides.md',
 };
 
 export default {

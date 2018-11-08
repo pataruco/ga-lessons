@@ -51,7 +51,7 @@ We want to build a thermostat that checks the temperature every 10 minutes and a
 
 # Pseudo code exercise
 
-In groups, pseudo code a Rock, Paper, Scissors game. The game has two players and is first to 3
+In groups, pseudo code a Rock, Paper, Scissors game. The game has two players and the winner is who won 2 games of 3
 
 ---
 
@@ -151,7 +151,7 @@ function addNumbers(num1, num2) {
   <body>
     <div>Hello</div>
     <span>world</span>
-  <script src=“script.js”></script>
+    <script src="“script.js”"></script>
   </body>
 </html>
 ```
