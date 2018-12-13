@@ -51,26 +51,6 @@ By the end of this workshop, our goal is to build a simple **responsive** web pa
 
 # How the Web works?
 
-## Simple
-
-.image-half[![](https://mdn.mozillademos.org/files/8973/Client-server.jpg)]
-
-???
-
-- Again, the browser is a “client”, but there can be different clients than browsers
-- When we type in an address or interact with a page (ex. Clicking a link) we will make a ‘request’
-- Servers manage these requests and run ‘logic’ to determine how to handle the particular request
-- They may have to go into a database to access information used when they ‘respond’ to the client’s request
-- Let’s see just how many requests and responses are needed to build a typical page
-- Remember, pages are not single files, like a PDF!
-- Load a common page, like **Wikipedia** and with the inspector open to show how many requests are needed to build the page
-
----
-
-# How the Web works?
-
-## Detailed
-
 .image-two-thirds[![](https://mdn.mozillademos.org/files/13839/Web%20Application%20with%20HTML%20and%20Steps.png)]
 
 ---
@@ -161,7 +141,7 @@ For this workshop, we’ll be **[Visual Studio Code](https://code.visualstudio.c
 
 # Getting Started
 
-- Type this URL into your browser: [ga.co/2JYsw3Y](ga.co/2JYsw3Y)
+- Type this URL into your browser: [http://bit.ly/GAIntroToCode](http://bit.ly/GAIntroToCode)
 - Extract the folder that downloads:
 - On a **Mac**: double click on the zip file and it will extract
 - On **Windows**: open the zip folder and hit `Extract all` in the menu bar
@@ -235,7 +215,10 @@ class: fullscreen, bg-burgundy
 Are self closing elements
 
 ```html
-<img src="https://api.peteroftheday.com/random" alt="A random Picture of Peter Martin"/>
+<img
+  src="https://api.peteroftheday.com/random"
+  alt="A random Picture of Peter Martin"
+/>
 ```
 
 ---
@@ -255,7 +238,10 @@ Elements can also have attributes, which look like this:
 # Images
 
 ```html
-<img src="https://api.peteroftheday.com/random" alt="A picture of Peter Martin">
+<img
+  src="https://api.peteroftheday.com/random"
+  alt="A picture of Peter Martin"
+/>
 ```
 
 The above example shows very simple usage of the `<img>` element. The src attribute is required, and contains the path to the image you want to embed. The alt attribute contains a textual description of the image, which isn't mandatory but is incredibly useful for accessibility
@@ -268,8 +254,8 @@ The above example shows very simple usage of the `<img>` element. The src attrib
 <p>
   I'm creating a link to
   <a href="https://https://en.wikipedia.org/wiki/Main_Page">
-    Wikipedia homepage
-  </a>.
+    Wikipedia homepage </a
+  >.
 </p>
 ```
 
@@ -283,7 +269,7 @@ A basic link is created by wrapping the text or other content, you want to turn 
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>My test page</title>
   </head>
   <body>
@@ -298,7 +284,7 @@ A basic link is created by wrapping the text or other content, you want to turn 
 
 ```html
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <title>My test page</title>
 </head>
 ```
@@ -313,9 +299,9 @@ A basic link is created by wrapping the text or other content, you want to turn 
 # `<body>`
 
 ```html
-  <body>
-    <p>This is my page</p>
-  </body>
+<body>
+  <p>This is my page</p>
+</body>
 ```
 
 - Represents the area from the top left corner of our page to the bottom right corner
@@ -421,30 +407,6 @@ h1 {
 p {
   color: red;
 }
-```
-
----
-
-# How does CSS actually work?
-
-```html
-<p>
-  Let's use:
-  <span>Cascading</span>
-  <span>Style</span>
-  <span>Sheets</span>
-</p>
-```
-
-```text
-P
-├─ "Let's use:"
-├─ SPAN
-|  └─ "Cascading"
-├─ SPAN
-|  └─ "Style"
-└─ SPAN
-   └─ "Sheets"
 ```
 
 ---
