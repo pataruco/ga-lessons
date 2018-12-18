@@ -14,7 +14,7 @@ class: fullscreen, bg-red
 
 # Locations
 
-<iframe src="https://pataruco.github.io/ga-locations/" style="height: 75vh" frameborder="0" ></iframe>
+<iframe src="https://pataruco.github.io/ga-locations/" style="height: 35vh" frameborder="0" ></iframe>
 
 ???
 
