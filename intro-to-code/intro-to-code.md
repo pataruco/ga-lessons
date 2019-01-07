@@ -330,35 +330,6 @@ A basic link is created by wrapping the text or other content, you want to turn 
 - `<a>`
 - `<span>`
 - `<em>`
-- `<strong>`
-  ]
-  ]
-
----
-
-# Common elements
-
-.row[
-.column[
-
-## Block Containers:
-
-- `<header>`
-- `<footer>`
-- `<main>`
-- `<section>`
-- `<article>`
-- `<nav>`
-- `<aside>`
-- `<div>`
-  ]
-  .column[
-
-## List Containers:
-
-- `<ul>`
-- `<ol>`
-- `<dl>`
   ]
   ]
 
