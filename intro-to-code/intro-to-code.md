@@ -389,7 +389,7 @@ class: fullscreen, bg-yellow
 
 # Please, share your feedback
 
-## [https://ga.co/survey](https://ga.co/survey)
+## [http://www.ga.co/introclass](http://www.ga.co/introclass)
 
 ---
 
