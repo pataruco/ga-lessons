@@ -310,31 +310,6 @@ A basic link is created by wrapping the text or other content, you want to turn 
 
 ---
 
-# Common elements
-
-.row[
-.column[
-
-## Text Wrappers:
-
-- `<p>`
-- `<h1>` to `<h6>`
-- `<blockquote>`
-- `<li>`
-
-]
-.column[
-
-## Inline Text-Wrappers:
-
-- `<a>`
-- `<span>`
-- `<em>`
-  ]
-  ]
-
----
-
 class: fullscreen, bg-yellow
 
 # Let’s get writing!
