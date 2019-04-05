@@ -139,9 +139,12 @@ For this workshop, we’ll be **[Visual Studio Code](https://code.visualstudio.c
 
 ---
 
-# Getting Started
+## Getting Started
 
-- Type this URL into your browser: [http://bit.ly/GAIntroToCode](http://bit.ly/GAIntroToCode)
+- Type this URL into your browser:
+
+# .center[[http://bit.ly/GAIntroToCode](http://bit.ly/GAIntroToCode)]
+
 - Extract the folder that downloads:
 - On a **Mac**: double click on the zip file and it will extract
 - On **Windows**: open the zip folder and hit `Extract all` in the menu bar
@@ -389,7 +392,7 @@ class: fullscreen, bg-yellow
 
 # Please, share your feedback
 
-## [http://www.ga.co/introclass](http://www.ga.co/introclass)
+## [ga.co/survey-ldn](ga.co/survey-ldn)
 
 ---
 
