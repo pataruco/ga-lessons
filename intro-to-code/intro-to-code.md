@@ -392,7 +392,7 @@ class: fullscreen, bg-yellow
 
 # Please, share your feedback
 
-## [ga.co/survey-ldn](ga.co/survey-ldn)
+## [https://ga.co/survey-ldn](https://ga.co/survey-ldn)
 
 ---
 
