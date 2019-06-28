@@ -152,7 +152,7 @@ Separate multiple clauses with `and` and negate with `not`
 To make our Media queries work we need to add this special metatag to the headin our HTML.
 
 ```html
- <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 ```
 
 ---
@@ -254,10 +254,15 @@ img {
 # Responsive images
 
 ```html
-<img srcset="elva-fairy-320w.jpg 320w,
-             elva-fairy-480w.jpg 480w,
-             elva-fairy-800w.jpg 800w"
-     src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy">
+<img
+  srcset="
+    elva-fairy-320w.jpg 320w,
+    elva-fairy-480w.jpg 480w,
+    elva-fairy-800w.jpg 800w
+  "
+  src="elva-fairy-800w.jpg"
+  alt="Elva dressed as a fairy"
+/>
 ```
 
 ---
@@ -265,10 +270,11 @@ img {
 # Responsive images
 
 ```html
-<img srcset="elva-fairy-320w.jpg,
-             elva-fairy-480w.jpg 1.5x,
-             elva-fairy-640w.jpg 2x"
-     src="elva-fairy-640w.jpg" alt="Elva dressed as a fairy">
+<img
+  srcset="elva-fairy-320w.jpg, elva-fairy-480w.jpg 1.5x, elva-fairy-640w.jpg 2x"
+  src="elva-fairy-640w.jpg"
+  alt="Elva dressed as a fairy"
+/>
 ```
 
 ---
@@ -277,9 +283,9 @@ img {
 
 ```html
 <picture>
-  <source media="(max-width: 799px)" srcset="elva-480w-close-portrait.jpg">
-  <source media="(min-width: 800px)" srcset="elva-800w.jpg">
-  <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva">
+  <source media="(max-width: 799px)" srcset="elva-480w-close-portrait.jpg" />
+  <source media="(min-width: 800px)" srcset="elva-800w.jpg" />
+  <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva" />
 </picture>
 ```
 

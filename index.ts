@@ -19,21 +19,25 @@ fewdLessons
 16 git / sass 
 */
 
-const fewdLessons = {
+interface Slides {
+  [key: string]: string;
+}
+
+const fewdLessons: Slides = {
   accesability: 'accesability/accesability.md',
   animations: 'animations/animations.md',
-  boxModel: '../../slides/box-model/box-model.md',
-  cssSelectors: '../../slides/css-selectors/css-selectors.md',
+  boxModel: 'box-model/box-model.md',
+  cssSelectors: 'css-selectors/css-selectors.md',
   finalPresentations: 'final-presentations/slides.md',
-  flexbox: '../../slides/flexbox/flexbox.md',
+  flexbox: 'flexbox/flexbox.md',
   forms: 'forms/forms.md',
   html: 'slides/intro-html/html.md',
   htmlCss: 'html-css/html-css.md',
   jquery: 'intro-jquery/slides.md',
   jqueryPlugins: 'intro-jquery-plugins/slides.md',
   js: 'intro-js/slides.md',
-  positioning: '../../slides/positioning/positioning.md',
-  responsive: '../../slides/responsive/responsive.md',
+  positioning: 'positioning/positioning.md',
+  responsive: './slides/responsive/responsive.md',
   svg: 'svg/svg.md',
 };
 
@@ -44,18 +48,18 @@ introToCode
 
 */
 
-const introToCode = {
-  introToCode: '../../../slides/intro-to-code/intro-to-code.md',
+const introToCode: Slides = {
+  introToCode: '../intro-to-code/intro-to-code.md',
 };
 
 /*
 UXDI
 */
 
-const uxdi = {
-  introJs: '../../slides/js-uxdi/intro-js.md',
-  positioning: '../../slides/positioning-uxdi/positioning.md',
-  git: '../../slides/git-uxdi/slides.md',
+const uxdi: Slides = {
+  introJs: 'js-uxdi/intro-js.md',
+  positioning: 'positioning-uxdi/positioning.md',
+  git: 'git-uxdi/slides.md',
 };
 
 export default {
