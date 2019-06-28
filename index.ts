@@ -45,7 +45,7 @@ introToCode
 */
 
 const introToCode = {
-  introToCode: '../../slides/intro-to-code/intro-to-code.md',
+  introToCode: '../../../slides/intro-to-code/intro-to-code.md',
 };
 
 /*
