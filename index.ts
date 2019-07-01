@@ -31,13 +31,13 @@ const fewdLessons: Slides = {
   finalPresentations: 'final-presentations/slides.md',
   flexbox: 'flexbox/flexbox.md',
   forms: 'forms/forms.md',
-  html: 'slides/intro-html/html.md',
+  html: 'intro-html/html.md',
   htmlCss: 'html-css/html-css.md',
   jquery: 'intro-jquery/slides.md',
   jqueryPlugins: 'intro-jquery-plugins/slides.md',
   js: 'intro-js/slides.md',
   positioning: 'positioning/positioning.md',
-  responsive: './slides/responsive/responsive.md',
+  responsive: 'responsive/responsive.md',
   svg: 'svg/svg.md',
 };
 

@@ -4,7 +4,7 @@ class: center, middle
 
 ## .center[Pedro Martin]
 
-.logo[![](../assets/ga.svg)]
+.logo[![](https://pataruco.s3.amazonaws.com/ga/assets/ga.svg)]
 
 ---
 
@@ -53,7 +53,7 @@ We can differentiate between an **absolute** URL and a **relative** URL by looki
 Images are placed using the `<img>` tag.
 
 ```html
-<img src="img/image-name.jpg" alt="alternative text">
+<img src="img/image-name.jpg" alt="alternative text" />
 ```
 
 ---
@@ -78,7 +78,7 @@ There are different approaches to specifying an image location
 Inside webroot, a relative path could be used:
 
 ```html
-<img src="images/logo.png">
+<img src="images/logo.png" />
 ```
 
 ---
@@ -88,7 +88,7 @@ Inside webroot, a relative path could be used:
 ## Relative path
 
 ```html
-<img src="../images/logo.png">
+<img src="../images/logo.png" />
 ```
 
 ---
@@ -98,7 +98,7 @@ Inside webroot, a relative path could be used:
 ## Absolute Path
 
 ```html
-<img src="https://api.peteroftheday.com/random">
+<img src="https://api.peteroftheday.com/random" />
 ```
 
 ---
@@ -108,7 +108,10 @@ Inside webroot, a relative path could be used:
 `alt` attribute provides a text description of the image
 
 ```html
-<img src="https://api.peteroftheday.com/random" alt="A random picture of Peter Martin">
+<img
+  src="https://api.peteroftheday.com/random"
+  alt="A random picture of Peter Martin"
+/>
 ```
 
 ---
@@ -173,7 +176,7 @@ There are four main image file formats:
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>My test page</title>
   </head>
   <body>
@@ -190,9 +193,9 @@ There are four main image file formats:
 
 ```html
 <head>
-  <meta charset="utf-8">
-  <meta name="author" content="Pedro Martin">
-  <meta name="description" content="A Lesson about HTMLs">
+  <meta charset="utf-8" />
+  <meta name="author" content="Pedro Martin" />
+  <meta name="description" content="A Lesson about HTMLs" />
 </head>
 ```
 
@@ -201,7 +204,7 @@ There are four main image file formats:
 # Applying CSS and JavaScript to HTML
 
 ```html
-<link rel="stylesheet" href="my-css-file.css">
+<link rel="stylesheet" href="my-css-file.css" />
 ```
 
 ```html
@@ -213,7 +216,7 @@ There are four main image file formats:
 # Setting the primary language of the document
 
 ```html
-<html lang="en-GB">
+<html lang="en-GB"></html>
 ```
 
 ---
@@ -221,10 +224,14 @@ There are four main image file formats:
 # Creating links
 
 ```html
-<p>I'm creating a link to
-  <a href="https://en.wikipedia.org/wiki/Star_Wars" title="Star Wars Wikipedia page">
-    Star Wars Wikipedia page
-  </a>.
+<p>
+  I'm creating a link to
+  <a
+    href="https://en.wikipedia.org/wiki/Star_Wars"
+    title="Star Wars Wikipedia page"
+  >
+    Star Wars Wikipedia page </a
+  >.
 </p>
 ```
 
@@ -236,7 +243,10 @@ There are four main image file formats:
 
 ```html
 <h2 id="Mailing_address">Mailing address</h2>
-<p>Want to write us a letter? Use our <a href="contacts.html#Mailing_address">mailing address</a>.</p>
+<p>
+  Want to write us a letter? Use our
+  <a href="contacts.html#Mailing_address">mailing address</a>.
+</p>
 ```
 
 ---
@@ -367,11 +377,11 @@ P
 Using a `link` tag with a reference to a CSS file
 
 ```html
-  <head>
-    ...
-    <link rel="stylesheet" href="style.css">
-    ...
-  </head>
+<head>
+  ...
+  <link rel="stylesheet" href="style.css" />
+  ...
+</head>
 ```
 
 ---
@@ -408,10 +418,12 @@ Using a `style` tag
 Using inline styles
 
 ```html
-  <body>
-    <h1 style="color: blue;background-color: yellow;border: 1px solid black;">Hello World!</h1>
-    <p style="color:red;">This is my first CSS example</p>
-  </body>
+<body>
+  <h1 style="color: blue;background-color: yellow;border: 1px solid black;">
+    Hello World!
+  </h1>
+  <p style="color:red;">This is my first CSS example</p>
+</body>
 ```
 
 ---

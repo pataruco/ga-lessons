@@ -1,6 +1,6 @@
 class: center, middle
 
-# .center[Responsive]
+# .center[Responsive!]
 
 ## .center[Pedro Martin]
 
