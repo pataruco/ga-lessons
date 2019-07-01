@@ -4,7 +4,7 @@ class: center, middle
 
 ## .center[Pedro Martin]
 
-.logo[![](../assets/ga.svg)]
+.logo[![](https://pataruco.s3.amazonaws.com/ga/assets/ga.svg)]
 
 ---
 
