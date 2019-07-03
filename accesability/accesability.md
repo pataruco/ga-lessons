@@ -4,7 +4,7 @@ class: center, middle
 
 ## .center[Pedro Martin]
 
-.logo[![](../assets/ga.svg)]
+.logo[![](https://pataruco.s3.amazonaws.com/ga/assets/ga.svg)]
 
 ---
 
@@ -175,7 +175,9 @@ li {
 ```html
 <p>The water is <em>very hot</em>.</p>
 
-<p>Water droplets collecting on surfaces is called <strong>condensation</strong>.</p>
+<p>
+  Water droplets collecting on surfaces is called <strong>condensation</strong>.
+</p>
 ```
 
 ---
@@ -297,8 +299,10 @@ Another category of content that can create accessibility problems is multimedia
 - Simple images
 
 ```html
- <img src="dinosaur.png"
-     alt="A red Tyrannosaurus Rex: A two legged dinosaur standing upright like a human, with small arms, and a large head with lots of sharp teeth.">
+<img
+  src="dinosaur.png"
+  alt="A red Tyrannosaurus Rex: A two legged dinosaur standing upright like a human, with small arms, and a large head with lots of sharp teeth."
+/>
 ```
 
 ---

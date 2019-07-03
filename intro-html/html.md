@@ -4,7 +4,7 @@ class: center, middle
 
 ## .center[Pedro Martin]
 
-.logo[![](../assets/ga.svg)]
+.logo[![](https://pataruco.s3.amazonaws.com/ga/assets/ga.svg)]
 
 ---
 
@@ -147,9 +147,8 @@ There are two important categories of elements in HTML which you should know abo
 
 ```html
 <p>
-  Here is a link to <a href="www.ga.co">General Assembly</a>.
-  Here is an <em>emphasis</em>.
-  and here is a <span>common wrapper</span>
+  Here is a link to <a href="www.ga.co">General Assembly</a>. Here is an
+  <em>emphasis</em>. and here is a <span>common wrapper</span>
 </p>
 ```
 
@@ -160,9 +159,12 @@ There are two important categories of elements in HTML which you should know abo
 Are self closing elements
 
 ```html
-<img src="https://api.peteroftheday.com/random" alt="A random Picture of Peter Martin"/>
-<hr/>
-<input type="color" id="color"/>
+<img
+  src="https://api.peteroftheday.com/random"
+  alt="A random Picture of Peter Martin"
+/>
+<hr />
+<input type="color" id="color" />
 ```
 
 ---
@@ -192,8 +194,11 @@ Are self closing elements
 <h2>Episode V: The Empire Strike Back</h2>
 <p>It is a dark time for the Rebellion...</p>
 <h3>EXT. GALAXY - PLANET HOTH</h3>
-<p>A Star Destroyer moves through space, releasing Imperial probe robots
-from its underside.<p>
+<p>
+  A Star Destroyer moves through space, releasing Imperial probe robots from its
+  underside.
+</p>
+<p></p>
 ```
 
 ---
@@ -204,7 +209,9 @@ from its underside.<p>
 
 ```html
 <h1>This is a top level heading</h1>
-<span style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</span>
+<span style="font-size: 32px; margin: 21px 0;"
+  >Is this a top level heading?</span
+>
 ```
 
 ---
@@ -246,7 +253,7 @@ from its underside.<p>
 
 # Code along
 
-## [Press release exercise](https://raw.githubusercontent.com/pataruco/fewd-lessons/master/intro-html/code-along/press-release.txt?token=AJ2gbmCf_ML_q3xVJrjAGzQ20lGFLcwRks5bsmkewA%3D%3D)
+## [Press release exercise](https://raw.githubusercontent.com/pataruco/ga-fewd-assets/master/press-release/starter/press-release.txt)
 
 ???
 Add a link
