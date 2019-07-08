@@ -1,6 +1,7 @@
 /* 
 fewdLessons
 
+0 intro
 1 html
 2 htmlCss
 3 boxModel
@@ -39,6 +40,7 @@ const fewdLessons: Slides = {
   positioning: 'positioning/positioning.md',
   responsive: 'responsive/responsive.md',
   svg: 'svg/svg.md',
+  intro: 'intro/intro.md',
 };
 
 /* 

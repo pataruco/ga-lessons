@@ -10,6 +10,7 @@ class: center, middle
 
 # Agenda
 
+- How the Web works?
 - The 3 Layers of the Web
 - HTML
 
@@ -23,11 +24,42 @@ Please, tell us the difference between:
 
 ---
 
+# How the Web works?
+
+.image-two-thirds[![](https://mdn.mozillademos.org/files/13839/Web%20Application%20with%20HTML%20and%20Steps.png)]
+
+---
+
 # Tell the difference...
 
 Please, tell us the difference between:
 
 ## Frontend vs Backend
+
+---
+
+# Frontend vs. Backend
+
+The development process can be broken into two areas:
+
+.row[
+.column[
+
+### Front-End
+
+- How things look to the user
+- Involves: images, content, structure
+- HTML, CSS, and JavaScript
+  ]
+
+.column[
+
+### Back-End
+
+- How things work
+- Involves: “business logic” and “data”
+- Ruby, PHP, C++, Java, etc.]
+  ]
 
 ---
 
