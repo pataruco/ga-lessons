@@ -55,29 +55,6 @@ By the end of this workshop, our goal is to build a simple **responsive** web pa
 
 ---
 
-# Frontend vs. Backend
-
-The development process can be broken into two areas:
-
-.row[
-.column[
-
-### Front-End
-
-- How things look to the user
-- Involves: images, content, structure
-- HTML, CSS, and JavaScript
-  ]
-
-.column[
-
-### Back-End
-
-- How things work
-- Involves: “business logic” and “data”
-- Ruby, PHP, C++, Java, etc.]
-  ]
-
 ???
 
 - Tonight we’re learning HTML & CSS, which fall under what we call `front-end web development`.
