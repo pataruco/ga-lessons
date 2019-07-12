@@ -716,12 +716,8 @@ Let's pull all the pieces together
 
 ## Instructions
 
-1. On your text editor create an HTML file called `index.html`
-2. Generate a html document typing `html` and then press tab key.
-3. Copy the content of the file [content.txt](./content.txt) and paste it inside the body tag
-4. Use semantic HTML to markup the content.
-5. Once your markup is finished create a CSS file and link it to your HTML using a a `<link>` tag
-6. Style as per picture following the below instuctions
+1. Download the starter code zip [file](https://github.com/pataruco/ga-fewd-assets/raw/master/cookie-recipe/cookie-recipe-starter-code.zip)
+2. Open the file **instructions.md** and follow the steps
 
 ---
 
@@ -766,6 +762,8 @@ Here are some examples
 - Use at least 6 different HTML tags (`h1`, `h2`, `h3`, `blockquote`, `p`, `ul`, `ol`, `a`, `img`) on your pages
 - Indent nested elements to increase your code's readability
 
+---
+
 ## Bonus
 
 - Experiment by adding additional HTML tags and CSS properties we did not cover in class - explore!
@@ -777,4 +775,4 @@ Here are some examples
 ## Submission
 
 - Create a folder using the following convention `name-surename-week-1`, e.g `pedro-martin-week-1`
-- Submit your work via Slack (even it's not finished) by **Sunday** 11:59 PM to the instructors
+- Submit your work via Google Drive (even it's not finished) by **Sunday** 11:59 PM to the instructors
