@@ -19,7 +19,7 @@ class: center, middle
 
 # Instructional team intro
 
-## Pedro Martin
+## [Pedro Martin](https://www.linkedin.com/in/pataruco)
 
 - From Venezuela
 - [~~Science~~ teacher](https://mapio.net/images-p/42209765.jpg)
@@ -34,6 +34,9 @@ class: center, middle
 
 ## [Nicholas Wilson](https://www.linkedin.com/in/nicholas-lawrence-wilson/)
 
+Hey everyone, sorry I couldn't be with you this evening actually not that sorry, I'm having a great holiday!. A bit about me: about 18 months ago, I quit my job as a civil engineer to do a full time web development immersive at general assembly. It's without doubt the best decision I have ever made!
+After the course, I stayed on at general assembly as a teaching assistant for the next three month immersive before taking a frontend developer role at an awesome company called edited.com. And now I'm also your teaching assistant! I really can't wait to meet you guys on Wednesday, it's going to be a lot of fun!
+
 ---
 
 # Students intro
@@ -44,7 +47,7 @@ class: center, middle
 
 # Environment
 
-- What do you like to happen during this course?
+- What do you like to happen?
 - How you make this happen?
 - What do you need from the instructional team?
 - What blockers and/or enabler do you/we have?
@@ -55,6 +58,7 @@ class: center, middle
 
 - 10 weeks -> 3 hours lessons X 2 nights a week = 60 hours
 - Class attendance
+- Check-in (exit ticket)
 - Homework
 - Final projects & class expectations
 
