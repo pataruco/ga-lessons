@@ -300,7 +300,7 @@ We can clear to the `left`, `right`, or `both` sides. Which will clear the affec
 
 # Floating sections
 
-<iframe height='265' scrolling='no' title='Floating sections' src='//codepen.io/pataruco/embed/NLGKrV/?height=265&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/pataruco/pen/NLGKrV/'>Floating sections</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='265' scrolling='no' title='Floating sections' src='https://codepen.io/pataruco/embed/NLGKrV/?height=265&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/pataruco/pen/NLGKrV/'>Floating sections</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 [CodePen](https://codepen.io/pataruco/pen/NLGKrV?editors=1100)
@@ -309,8 +309,6 @@ We can clear to the `left`, `right`, or `both` sides. Which will clear the affec
 
 # Homework
 
-**Let's start to use GitHub!**
+[Relaxr](https://github.com/pataruco/ga-fewd-assets/raw/master/relaxr-1/starter_code.zip)
 
-[Homework repo](https://github.com/pataruco/gla2-homeworks.git)
-
-[Relaxr](./homework/starter_code)
+[Final version](https://raw.githubusercontent.com/pataruco/ga-fewd-assets/master/relaxr-1/starter_code/images/relaxr_landing.jpg)
