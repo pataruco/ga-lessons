@@ -12,9 +12,7 @@ class: center, middle
 
 - Recap
 - Building blocks of layout
-  - Lab
 - Nested Selectors
-  - Lab
 - Google Fonts
 
 ---
@@ -74,29 +72,16 @@ Boxes have a number of properties that we use to describe them and how they lay 
 
 ---
 
-# Computed width
 
-## `width` + `padding-left` + `padding-right` + `border-left` + `border-right`
+# Content box computed size
 
----
-
-# Computed height
-
-## `height` + `padding-top` + `padding-bottom` + `border-top` + `border-bottom`
-
----
-
-## Computed width
-
-`width`
-
-## Computed height
-
-`height`
+**width**: `width` + `padding-left` + `padding-right` + `border-left` + `border-right`
+**height** `height` + `padding-top` + `padding-bottom` + `border-top` + `border-bottom`
 
 Wouldn't it be nice if we could simplify things?
 
 ---
+
 
 # Box sizing
 
