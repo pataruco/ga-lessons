@@ -72,7 +72,6 @@ Boxes have a number of properties that we use to describe them and how they lay 
 
 ---
 
-
 # Content box computed size
 
 **width**: `width` + `padding-left` + `padding-right` + `border-left` + `border-right`
@@ -82,6 +81,7 @@ Boxes have a number of properties that we use to describe them and how they lay 
 Wouldn't it be nice if we could simplify things?
 
 ---
+
 # Box Model
 
 **Content box** vs **border box**
@@ -89,7 +89,6 @@ Wouldn't it be nice if we could simplify things?
 An [interactive demo](http://guyroutledge.github.io/box-model/) of the box model
 
 ---
-
 
 # Box sizing
 
@@ -135,7 +134,11 @@ div {
 
 ---
 
+# Box Model
 
+An [interactive demo](https://pataruco.github.io/box-model/) of the box model
+
+Inspired by Guy Routledge project [Box Model](https://github.com/guyroutledge/box-model)
 
 # Lab
 
