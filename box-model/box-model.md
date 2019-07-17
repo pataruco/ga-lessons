@@ -76,9 +76,17 @@ Boxes have a number of properties that we use to describe them and how they lay 
 # Content box computed size
 
 **width**: `width` + `padding-left` + `padding-right` + `border-left` + `border-right`
+
 **height** `height` + `padding-top` + `padding-bottom` + `border-top` + `border-bottom`
 
 Wouldn't it be nice if we could simplify things?
+
+---
+# Box Model
+
+**Content box** vs **border box**
+
+An [interactive demo](http://guyroutledge.github.io/box-model/) of the box model
 
 ---
 
@@ -127,15 +135,13 @@ div {
 
 ---
 
-# Box Model
 
-An [interactive demo](http://guyroutledge.github.io/box-model/) of the box model
-
----
 
 # Lab
 
 ## Tag boxes
+
+Please download the [starter code](https://github.com/pataruco/ga-fewd-assets/raw/master/tag-boxes/tag-boxes-starter-code.zip)
 
 ---
 
@@ -185,7 +191,7 @@ Next time we'll learn more specific types of selectors.
 
 # Lab
 
-[Nested selectors]()
+[Nested selectors](https://github.com/pataruco/ga-fewd-assets/raw/master/nested-selectors/nested-selectorstarter-code.zip)
 
 ---
 
@@ -204,7 +210,7 @@ Google fonts is a free service that provides access to a whole range of differen
 4. Choose the font styles you need
 5. Leave the character set as Latin
 6. Copy and paste the `<link>` stylesheet code snippet
-7. Copy and paste the font-familyinto your CSS eg.
+7. Copy and paste the font-family into your CSS eg.
 
 ```css
 body {
