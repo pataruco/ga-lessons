@@ -86,7 +86,9 @@ Wouldn't it be nice if we could simplify things?
 
 **Content box** vs **border box**
 
-An [interactive demo](http://guyroutledge.github.io/box-model/) of the box model
+An [interactive demo](https://pataruco.github.io/box-model/) of the box model
+
+Inspired by Guy Routledge project [Box Model](https://github.com/guyroutledge/box-model)
 
 ---
 
@@ -133,12 +135,6 @@ div {
 ```
 
 ---
-
-# Box Model
-
-An [interactive demo](https://pataruco.github.io/box-model/) of the box model
-
-Inspired by Guy Routledge project [Box Model](https://github.com/guyroutledge/box-model)
 
 # Lab
 
