@@ -33,13 +33,13 @@ We can differentiate between an **absolute** URL and a **relative** URL by looki
 
 ```js
 './i-am-relative-path/filename.txt';
-// From my current position get to a directory and the get the file
+// From my current position get to a directory and then get the file
 ```
 
 ```js
 '../i-am-also-a-relative-path/filename.txt';
 // From my current position go up to my parent directory and
-//then to another directory and the get the file
+// then to another directory and the get the file
 ```
 
 ```js
@@ -753,7 +753,7 @@ Here are some examples
 ## Technical requirements
 
 - Use HTML5 structural elements (nav, header, footer)
-- Use Elements and Classes to to select and style elements on the page
+- Use Elements and Classes to select and style elements on the page
 - Follow naming conventions, maintain consistency across .html and .css files and use best practices for naming classes
 - Use a unique `title` and a single unique `h1` tag
 - Show images using `img` tags including unique `alt` attributes
