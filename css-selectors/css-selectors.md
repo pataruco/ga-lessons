@@ -93,8 +93,7 @@ They allow us to target specific parts of a page regardless of the type of eleme
 `class` and `id` are attributes that are added to the HTML and then selected from the CSS to apply styling.
 
 ```html
-<div id="main-content" class="page-wrap"> ...
-</div>
+<div id="main-content" class="page-wrap">...</div>
 ```
 
 ---
@@ -304,6 +303,12 @@ We can clear to the `left`, `right`, or `both` sides. Which will clear the affec
 </iframe>
 
 [CodePen](https://codepen.io/pataruco/pen/NLGKrV?editors=1100)
+
+---
+
+# Lab
+
+[CSS Diner](https://flukeout.github.io/)
 
 ---
 
