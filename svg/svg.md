@@ -39,17 +39,20 @@ A simple SVG document consists of nothing more than the `<svg>` root element and
 ## A simple Example
 
 ```html
-<svg version="1.1"
-     baseProfile="full"
-     width="300" height="200"
-     xmlns="http://www.w3.org/2000/svg">
-
+<svg
+  version="1.1"
+  baseProfile="full"
+  width="300"
+  height="200"
+  xmlns="http://www.w3.org/2000/svg"
+>
   <rect width="100%" height="100%" fill="red" />
 
   <circle cx="150" cy="100" r="80" fill="green" />
 
-  <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>
-
+  <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">
+    SVG
+  </text>
 </svg>
 ```
 
@@ -135,7 +138,7 @@ this is the opposite of the way you're taught to graph as a kid. However, this i
 One _user unit_ equals _one screen unit_. To explicitly change this behaviour, there are several possibilities in SVG. We start with the svg root element:
 
 ```html
-<svg width="100" height="100">
+<svg width="100" height="100"></svg>
 ```
 
 The above element defines a simple SVG canvas with 100x100px. One user unit equals one screen unit.
@@ -145,7 +148,7 @@ The above element defines a simple SVG canvas with 100x100px. One user unit equa
 ## What are "pixels"?
 
 ```html
-<svg width="200" height="200" viewBox="0 0 100 100">
+<svg width="200" height="200" viewBox="0 0 100 100"></svg>
 ```
 
 The whole SVG canvas here is 200px by 200px in size. However, the `viewBox` attribute defines the portion of that canvas to display.
@@ -167,8 +170,8 @@ This effectively zooms in on the 100x100 unit area and enlarges the image to dou
 The `rect` element does exactly what you would expect and draws a rectangle on the screen.
 
 ```html
-<rect x="10" y="10" width="30" height="30"/>
-<rect x="60" y="10" rx="10" ry="10" width="30" height="30"/>
+<rect x="10" y="10" width="30" height="30" />
+<rect x="60" y="10" rx="10" ry="10" width="30" height="30" />
 ```
 
 ---
@@ -191,7 +194,7 @@ The `circle` element draws a circle on the screen.
 There are really only 3 attributes that are applicable here.
 
 ```html
-<circle cx="25" cy="75" r="20"/>
+<circle cx="25" cy="75" r="20" />
 ```
 
 - `r`: The radius of the circle.
@@ -205,7 +208,7 @@ There are really only 3 attributes that are applicable here.
 Ellipses are actually just a more general form of the circle element, where you can scale the x and y radius of the circle separately.
 
 ```html
-<ellipse cx="75" cy="75" rx="20" ry="5"/>
+<ellipse cx="75" cy="75" rx="20" ry="5" />
 ```
 
 - `rx`: The x radius of the ellipse.
@@ -222,7 +225,7 @@ Lines are again, just straight lines.
 They take as attributes two points which specify the start and end point of the line.
 
 ```html
-<line x1="10" x2="50" y1="110" y2="150"/>
+<line x1="10" x2="50" y1="110" y2="150" />
 ```
 
 - `x1`: The x position of point 1.
@@ -237,7 +240,9 @@ They take as attributes two points which specify the start and end point of the 
 Polylines are groups of connected straight lines. Since that list can get quite long, all the points are included in one attribute:
 
 ```html
-<polyline points="60 110, 65 120, 70 115, 75 130, 80 125, 85 140, 90 135, 95 150, 100 145"/>
+<polyline
+  points="60 110, 65 120, 70 115, 75 130, 80 125, 85 140, 90 135, 95 150, 100 145"
+/>
 ```
 
 - `points`: A list of points, each number separated by a space, comma, EOL, or a line feed character. Each point must contain two numbers, an x coordinate and a y coordinate.
@@ -249,7 +254,9 @@ Polylines are groups of connected straight lines. Since that list can get quite 
 Polygons are a lot like polylines in that they're composed of straight line segments connecting a list of points. For polygons though, the path automatically returns to the first point for you at the end, creating a closed shape.
 
 ```html
-<polygon points="50 160, 55 180, 70 180, 60 190, 65 205, 50 195, 35 205, 40 190, 30 180, 45 180"/>
+<polygon
+  points="50 160, 55 180, 70 180, 60 190, 65 205, 50 195, 35 205, 40 190, 30 180, 45 180"
+/>
 ```
 
 ---
@@ -259,7 +266,7 @@ Polygons are a lot like polylines in that they're composed of straight line segm
 Path is probably the most general shape that can be used in SVG. Using a path element you can draw rectangles, circles, ellipses, polylines, and polygons. Basically any of the other types of shapes, bezier curves, quadratic curves, and many more.
 
 ```html
-<path d="M 20 230 Q 40 205, 50 230 T 90230"/>
+<path d="M 20 230 Q 40 205, 50 230 T 90230" />
 ```
 
 `d`: a list of points and other information about how to draw the path. See the Paths section for more information.
@@ -273,8 +280,16 @@ More info in how to draw paths [here](https://developer.mozilla.org/en-US/docs/W
 Basic coloring can be done by setting two attributes on the node: `fill` and `stroke`. Fill sets the color inside the object and stroke sets the color of the line drawn around the object
 
 ```html
-<rect x="10" y="10" width="100" height="100" stroke="blue" fill="purple"
-       fill-opacity="0.5" stroke-opacity="0.8"/>
+<rect
+  x="10"
+  y="10"
+  width="100"
+  height="100"
+  stroke="blue"
+  fill="purple"
+  fill-opacity="0.5"
+  stroke-opacity="0.8"
+/>
 ```
 
 ---
@@ -324,4 +339,4 @@ class: center, middle
 
 ### Loading spinner
 
-[https://codepen.io/pataruco/pen/jxygQg](https://codepen.io/pataruco/pen/jxygQg)
+[https://codepen.io/pataruco/pen/dKrPMw](https://codepen.io/pataruco/pen/dKrPMw)
