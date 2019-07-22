@@ -68,8 +68,10 @@ My preference: [https://necolas.github.io/normalize.css/](https://necolas.github
 
 `float`s are weird!
 
-<iframe scrolling='no' title='Floats are weird' src='//codepen.io/pataruco/embed/rZOEbr/?theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%; height: 35vh;'>See the Pen <a href='https://codepen.io/pataruco/pen/rZOEbr/'>Floats are weird</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe scrolling='no' title='Floats are weird' src='https://codepen.io/pataruco/embed/rZOEbr/?theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%; height: 35vh;'>See the Pen <a href='https://codepen.io/pataruco/pen/rZOEbr/'>Floats are weird</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+[Codepen](https://codepen.io/pataruco/pen/rZOEbr)
 
 ---
 
@@ -105,7 +107,7 @@ To prevent a container from collapsing we add the clearfixclass to the container
 
 ```html
 <div class="main-content clearfix">
- ...
+  ...
 </div>
 ```
 
@@ -258,3 +260,47 @@ Viewport-percentage lengths define the **length** value relative to the size of 
 # Lab
 
 [Pig Exercise](https://codepen.io/pataruco/pen/rZLvPZ)
+
+---
+
+# Homework
+
+### Description
+
+Relaxr was really impressed by your work last week and wants you to continue development on their landing page.
+
+Starting in class, you will work to build out a more complex layout for their company site.
+
+They decided on creating a blog, and their back-end engineers will be focused on developing the blog's functionality.
+
+They want your front-end skills to style their designs using HTML and CSS so Relaxr's engineers can begin integrating. Once again, the designers have handed you a basic [design file with instructions](https://raw.githubusercontent.com/pataruco/ga-fewd-assets/master/relaxr-2/starter_code/readme) and the JPEG below to help you bring the blog to life.
+
+Submit the finished version for homework.
+
+[Relaxr Blog image](https://raw.githubusercontent.com/pataruco/ga-fewd-assets/master/relaxr-2/starter_code/relaxr_blog.jpg)
+
+---
+
+### Technical Requirements
+
+- Use flexbox in your CSS to achieve a two-column layout
+- Use the correct `Open Sans` Google Font typeface to style the text denoted in the [design file](https://raw.githubusercontent.com/pataruco/ga-fewd-assets/master/relaxr-2/starter_code/readme) and according to the JPEG provided
+- Use proper filename conventions (lowercase, .html)
+- Use a single external CSS stylesheet to style all pages
+- Use a background image for the headers
+- Add a hover effect to all the links using pseudo-classes
+- Integrate drop caps using pseudo-classes
+
+---
+
+### Bonus
+
+- Link the "Blog" link in the header to the page you've built for this assignment
+- Link the "About" link in the header to the you built last week
+
+---
+
+### Resources
+
+- [Documentation on integrating Drop Caps](https://css-tricks.com/snippets/css/drop-caps/)
+- [Documentation on CSS Pseudo-classes](http://www.w3schools.com/CSS/CSS_pseudo_classes.asp)
