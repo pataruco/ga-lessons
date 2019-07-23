@@ -1,6 +1,6 @@
 class: center, middle
 
-# .center[Responsive!]
+# .center[Responsive]
 
 ## .center[Pedro Martin]
 
@@ -31,7 +31,7 @@ class: center, middle
 Checkout these **fixed** sites
 
 - [Cater Allen Private Bank](https://www.caterallen.co.uk/)
-- [Google](https://google.com)
+- [Ling's Cars](https://www.lingscars.com/)
 
 ---
 
@@ -89,7 +89,6 @@ Common units of measurement for these components are:
 ## `em`
 
 - Sized based on the width of the letter "M"
-- http://alistapart.com/articles/howtosizetextincss
 - Size is relative to the parent
 
 ```css
@@ -100,6 +99,13 @@ h1 {
   font-size: 2em; /*font size is 32px */
 }
 ```
+
+<iframe height="265" style="width: 100%;" scrolling="no" title="em vs rem" src="//codepen.io/pataruco/embed/dxGRjM/?height=265&theme-id=0&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/pataruco/pen/dxGRjM/'>em vs rem</a> by Pedro Martin
+  (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+[CodePen](https://codepen.io/pataruco/pen/dxGRjM)
 
 ---
 
@@ -129,6 +135,13 @@ This means we can write CSS for screen devices (laptops, tablets, mobiles) and d
   /*styles only apply when viewport is up to 800px */
 }
 ```
+
+<iframe height="265" style="width: 100%;" scrolling="no" title="Media queries" src="//codepen.io/pataruco/embed/bXErem/?height=265&theme-id=0&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/pataruco/pen/bXErem/'>Media queries</a> by Pedro Martin
+  (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+[Codepen](https://codepen.io/pataruco/pen/bXErem)
 
 ---
 
@@ -246,6 +259,8 @@ We can make them flexible by setting `max-width`
 ```css
 img {
   max-width: 100%;
+  display: block;
+  height: auto;
 }
 ```
 
@@ -264,6 +279,8 @@ img {
   alt="Elva dressed as a fairy"
 />
 ```
+
+[CodePen](https://codepen.io/pataruco/pen/KOVXNM)
 
 ---
 
