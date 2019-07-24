@@ -343,6 +343,26 @@ We can clear to the `left`, `right`, or `both` sides. Which will clear the affec
 
 ---
 
+# Floats layout
+
+Back in the day `floats` were the only way to introduce columns, but because a container with floats elements loose their height we need to clear that effect inmmediatly
+
+## [Cleafix hack](http://nicolasgallagher.com/micro-clearfix-hack/)
+
+```css
+.cf:before,
+.cf:after {
+  content: ' '; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+```
+
+---
+
 # Floating sections
 
 <iframe height='265' scrolling='no' title='Floating sections' src='https://codepen.io/pataruco/embed/NLGKrV/?height=265&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/pataruco/pen/NLGKrV/'>Floating sections</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.

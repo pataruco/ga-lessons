@@ -8,14 +8,6 @@ class: center, middle
 
 ---
 
----
-
-# Objective
-
-Learn the building-blocks of JavaScript so we can add more interaction to the page.
-
----
-
 ## Agenda
 
 - What is JavaScript
@@ -28,6 +20,10 @@ Learn the building-blocks of JavaScript so we can add more interaction to the pa
 ---
 
 # What is JavaScript?
+
+- Is interpreted programming language that conforms to the ECMAScript specification
+- Alongside HTML and CSS, JavaScript is one of the core technologies of Web
+- JavaScript enables interactive web pages and is an essential part of web applications.
 
 ---
 
