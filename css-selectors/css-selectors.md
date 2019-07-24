@@ -38,11 +38,101 @@ header a {
 
 To have more control over the sections of the page to be styled, there are a whole load of other selectors available.
 
-These can further be combined by comma separating or descendent selectors.
+---
+
+# Simple selectors
+
+- Type: Selects all elements that match the given node name.
+
+  ```css
+  header {
+    background-color: pink;
+  }
+  ```
+
+- Class: Selects all elements that have the given class attribute.
+
+  ```css
+  .column {
+    display: flex;
+  }
+  ```
 
 ---
 
-# Pseudo selectors
+# Simple selectors
+
+- ID: Selects an element based on the value of its id attribute. _There should be only one element with a given ID in a document_
+
+  ```css
+  #hamburguer {
+    position: absolute;
+  }
+  ```
+
+- Universal: Selects all elements
+
+  ```css
+  * {
+    box-sizing: border-box;
+  }
+  ```
+
+---
+
+# Simple selectors
+
+- Attribute: Selects elements based on the value of the given attribute.
+
+  ```css
+  input[type='email'] {
+    border: none;
+  }
+  ```
+
+---
+
+# Combinators
+
+- `+` selects adjacent siblings
+
+  ```css
+  h2 + p {
+    font-family: monospace;
+  }
+  ```
+
+- `~` selects siblings
+
+  ```css
+  section ~ article {
+    font-family: max-width: 1280px;
+  }
+  ```
+
+---
+
+# Combinators
+
+- `>` selects nodes that are direct children of the first element
+
+  ```css
+  ul > li {
+    border-bottom: none;
+  }
+  ```
+
+- (space) combinator selects nodes that are descendants of the first element.
+
+  ```css
+  .menu-open nav {
+    display: nonel;
+  }
+  ```
+
+---
+
+# Pseudo classes
 
 Other selectors include pseudo selectors for styling state. A classic example is the `:hover` state when mousing over links or the `:focus` state when filling in a form.
 
@@ -61,71 +151,27 @@ input:focus {
 }
 ```
 
+[MDN Index of pseudo classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes#Index_of_standard_pseudo-classes)
+
 ---
 
 # Pseudo elements
 
-We also can style pseudo elements.
+Is keyword added to a selector that lets you style a specific part of the selected element(s)
 
 ```css
-p:first-child
-p:first-letter
-p:first-line
-p:first-of-type
-p:last-child
-p:last-of-type
-p:nth-child(exp)
-p:nth-of-type(exp)
-```
-
----
-
-# Class & Id
-
-By far the most targeted selectors to use are `class` or `id` selectors.
-
-They allow us to target specific parts of a page regardless of the type of element.
-
----
-
-# Class & Id
-
-`class` and `id` are attributes that are added to the HTML and then selected from the CSS to apply styling.
-
-```html
-<div id="main-content" class="page-wrap">...</div>
-```
-
----
-
-# Class & Id
-
-## Ids are unique
-
-They can be used **ONCE** per page - best for JavaScript
-
-##Classes are not unique
-They can be reused **MANY** times per page - best for CSS
-
----
-
-# Class & Id
-
-How to use them in CSS
-
-```css
-.page-wrap {
-  /*_* styles go here *_*/
-}
-
-#main-content {
-  /*_* styles go here *_*/
+/* The first line of every <p> element. */
+p::first-line {
+  color: blue;
+  text-transform: uppercase;
 }
 ```
 
+[MDN Index of pseudo elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements#Index_of_standard_pseudo-elements)
+
 ---
 
-# Class & Id
+# Class vs Id
 
 <iframe height='265' scrolling='no' title='Classes and Id's' src='//codepen.io/pataruco/embed/Pdqrqw/?height=265&theme-id=dark&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/pataruco/pen/Pdqrqw/'>Classes and Id's</a> by Pedro Martin (<a href='https://codepen.io/pataruco'>@pataruco</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
