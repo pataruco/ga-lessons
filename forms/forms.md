@@ -30,8 +30,8 @@ We create the form in HTML, just like the rest of our content.
 <!-- Simple form which will send a GET request -->
 <form action="/register" method="get">
   <label for="GET-name">Name:</label>
-  <input id="GET-name" type="text" name="name">
-  <input type="submit" value="Save">
+  <input id="GET-name" type="text" name="name" />
+  <input type="submit" value="Save" />
 </form>
 ```
 
@@ -51,7 +51,7 @@ Attributes on the form tag determine:
 
 # Forms
 
-## What type of information might we want to send in a form?
+What type of information might we want to send in a form?
 
 ---
 
@@ -90,7 +90,7 @@ An example of a form input and some of the available attributes
   placeholder="How many?"
   type="number"
   value="1"
->
+/>
 ```
 
 ---
@@ -118,14 +118,14 @@ Attributes on the inputs determine:
 <form action="" method="get" class="form-example">
   <div class="form-example">
     <label for="name">Enter your name: </label>
-    <input type="text" name="name" id="name" required>
+    <input type="text" name="name" id="name" required />
   </div>
   <div class="form-example">
     <label for="email">Enter your email: </label>
-    <input type="email" name="email" id="email" required>
+    <input type="email" name="email" id="email" required />
   </div>
   <div class="form-example">
-    <input type="submit" value="Subscribe!">
+    <input type="submit" value="Subscribe!" />
   </div>
 </form>
 ```
@@ -137,21 +137,19 @@ Attributes on the inputs determine:
 Special buttons
 
 ```html
-<input type="submit" value="Go!">
-<input type="reset" value="Reset">
+<input type="submit" value="Go!" /> <input type="reset" value="Reset" />
 ```
 
 Creates a file upload element
 
 ```html
-<input type="file">
+<input type="file" />
 ```
 
 Creates clickable button
 
 ```html
-<input type="button">
-<button>I am a button<button>
+<input type="button" /> <button>I am a button<button></button></button>
 ```
 
 ---
@@ -167,7 +165,7 @@ A `select` dropdown is filled with many `option`s
   <option value="AL">Albania</option>
   <option value="DZ">Algeria</option>
   <option value="AS">American Samoa</option>
-...
+  ...
 </select>
 ```
 
@@ -188,7 +186,7 @@ We can group common options together for better UX.
     <option value="AX">Åland Islands</option>
     <option value="AL">Albania</option>
     <option value="DZ">Algeria</option>
-...
+    ...
   </optgroup>
 </select>
 ```
@@ -201,8 +199,7 @@ Each `<input>` should have a corresponding `<label>` tag to let the user know wh
 The label and its input are linked with a `for` attribute on the **label** that matches the **input** `id`
 
 ```html
-<label for="first-name">First Name</label>
-<input type="text" id="first-name">
+<label for="first-name">First Name</label> <input type="text" id="first-name" />
 ```
 
 ---
@@ -233,10 +230,6 @@ We can check if all the required fields have been filled out with the correct ki
 
 What if I actually want someone to be able to send me the form info?
 
----
-
-# Form solutions
-
 There are a handful of third-party solutions that allow you to put a working form on a static website.
 
 - [Wufoo](https://www.wufoo.com)
@@ -247,3 +240,5 @@ There are a handful of third-party solutions that allow you to put a working for
 ---
 
 # Lab
+
+[Starter code](https://github.com/pataruco/ga-fewd-assets/raw/master/forms/starter-code.zip)
