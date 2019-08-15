@@ -106,10 +106,6 @@ We will do Thermostat later
 
 ---
 
-# The DOM
-
----
-
 ## The DOM
 
 JavaScript interacts with our HTML document. It can read info on the page and make changes to any element on the page.
@@ -202,11 +198,7 @@ The function contains a series of instructions which allow us to build up more c
 
 ## JavaScript Exercise
 
-### [Traffic lights](http://codepen.io/nevan/pen/GgMXEm)
-
----
-
-# Variables
+### [Traffic lights](https://codepen.io/pataruco/pen/oNvxGxR)
 
 ---
 
@@ -221,11 +213,13 @@ The function contains a series of instructions which allow us to build up more c
 
 ## Creating variables
 
-To create a variable for the first time we use the `var` keyword and name the variable.
+To create a variable for the first time we use the `var`, `let`, `const` keyword and name the variable.
 We set its value with the `=` operator.
 
 ```js
 var score = 0;
+let fruits = ['banana', 'orange', 'mango'];
+const letter = 'a';
 ```
 
 To reference the variable we just call it by its name. Its
@@ -233,6 +227,8 @@ value will be returned back to us.
 
 ```js
 score; // returns 0
+fruits; // ['banana', 'orange', 'mango']
+letter; // a
 ```
 
 ---
@@ -245,6 +241,17 @@ To change the value in an already created variable, we just reference it by name
 var score = 0;
 score = 10;
 score; // returns 10
+
+let fruits = ['banana', 'orange', 'mango'];
+fruits = ['apple', 'pear'];
+fruits; // ['apple', 'pear'];
+```
+
+### `const`
+
+```js
+const letter = 'a';
+const letter = 'b'; // Uncaught SyntaxError: Identifier 'letter' has already been declared
 ```
 
 ---
@@ -253,7 +260,7 @@ score; // returns 10
 
 - Variable names start with a lower case letter or `_` or `$` character
 - Variables can't start with a number
-- If they contain multiple words, subsequent words start with an upper case letter. This is known as camelCase.
+- If they contain multiple words, subsequent words start with an upper case letter. This is known as camelCase. 🐫
 
 ```js
 var numberOfStudents = 10;
@@ -280,19 +287,23 @@ We can store lots of different types of information in variables.
 - String literal is surrounded by quotes
 
 ```js
-var question = 'How is the weather today?';
-var answer = 'Warm';
+const question = 'How is the weather today?';
+const answer = 'Warm';
 ```
 
 ---
 
 ## Strings
 
-Double vs single quoted strings:
+Double vs single vs string literals quoted strings:
 
 ```js
-'They "purchased" it';
-"It's a beautiful day";
+const singleQuote = 'They "purchased" it';
+const doubleQuote = "It's a beautiful day";
+
+const name = 'Pedro';
+const stringLiteral = `Hola ${name}`;
+stringLiteral; // "Hola Pedro"
 ```
 
 To have a string that contains apostrophes or air quotes, we need to use the opposite type of quote marks or the string will break into multiple parts.
@@ -302,11 +313,11 @@ To have a string that contains apostrophes or air quotes, we need to use the opp
 ## String to number
 
 ```js
-var amount = '4';
+const amount = '4';
 typeof amount; // returns "string"
 amount = parseInt(amount, 10);
 typeof amount; // returns "number"
-var pi = '3.14159';
+const pi = '3.14159';
 typeof pi; // returns "string"
 pi = parseFloat(pi);
 typeof pi; // returns "number"
@@ -319,7 +330,7 @@ Sometimes we need to grab some text (a string) from the page and turn it into a 
 ## Number to string
 
 ```js
-var quantity = 4;
+const quantity = 4;
 quantity = quantity.toString();
 ```
 
@@ -343,8 +354,8 @@ Whole numbers are called integers and decimals are called oating point numbers.
 ## Arithmetic in JavaScript
 
 ```js
-var a = 43;
-var b = 10;
+const a = 43;
+const b = 10;
 a + b; // returns 53
 a - b; // returns 33
 a * b; // returns 430
@@ -357,49 +368,6 @@ a % b; // returns 3
 ## Score keeper
 
 [Code along](https://codepen.io/pataruco/pen/pLXwaz)
-
-Note:
-
-```js
-/*
-start a "score" at zero
-when I click the first button, reset the score to zero
-when I click the second button, add 5 to the current score
-when I click the third button, add 10 to the current score
-when I click the fourth button, minus 1 from the current score
-each time I click a button, check that the total is not too big or too small
-and update the score on the page
-*/
-var score = 0;
-
-document.getElementById('add5').onclick = addFive;
-document.getElementById('add10').onclick = addTen;
-document.getElementById('sub1').onclick = subOne;
-document.getElementById('zero').onclick = reset;
-
-function reset() {
-  score = 0;
-  updateTotal();
-}
-function addFive() {
-  score = score + 5;
-  updateTotal();
-}
-function addTen() {
-  score = score + 10;
-  updateTotal();
-}
-function subOne() {
-  score = score - 1;
-  updateTotal();
-}
-function updateTotal() {
-  if (score > 100 || score < -10) {
-    reset();
-  }
-  document.getElementById('result').innerText = score;
-}
-```
 
 ---
 
@@ -436,7 +404,9 @@ Are two things equal?
 
 ## Comparison Operators
 
-`var x = 3;`
+```js
+const x = 3;
+```
 
 | Operator | Description                     | Comparing   | Returns |
 | -------- | ------------------------------- | ----------- | ------- |
@@ -444,14 +414,13 @@ Are two things equal?
 | `===`    | exactly equal to value and type | `x === '3'` | `false` |
 | `===`    | exactly equal to value and type | `x === 3`   | `true`  |
 
-Note:
-Chart 1 of 3
-
 ---
 
 ## Comparison Operators
 
-`var x = 3;`
+```js
+const x = 3;
+```
 
 | Operator | Description                         | Comparing   | Returns |
 | -------- | ----------------------------------- | ----------- | ------- |
@@ -459,14 +428,13 @@ Chart 1 of 3
 | `!==`    | is not neither equal value nor type | `x !== '3'` | `true`  |
 | `!==`    | is not neither equal value nor type | `x !== 3`   | `false` |
 
-Note:
-Chart 2 of 3
-
 ---
 
 ## Comparison Operators
 
-`var x = 3;`
+```js
+const x = 3;
+```
 
 | Operator | Description              | Comparing | Returns |
 | -------- | ------------------------ | --------- | ------- |
@@ -474,9 +442,6 @@ Chart 2 of 3
 | `<`      | less than                | `x < 8`   | `true`  |
 | `>=`     | greater than or equal to | `x >= 8`  | `false` |
 | `<=`     | less than or equal to    | `x >= 8`  | `true`  |
-
-Note:
-Chart 3 of 3
 
 ---
 
@@ -505,7 +470,7 @@ if (condition) {
 ## Conditional syntax
 
 ```js
-var topic = 'JS';
+const topic = 'JS';
 if (topic === 'JS') {
   console.log("You're learning JavaScript");
 } else if (topic === 'JavaScript') {
@@ -543,7 +508,7 @@ if (day === 'Tuesday' || day === 'Thursday') {
 
 ## Functions
 
-A function definition consists of the function keyword, followed by:
+A function definition consists of the `function` keyword, followed by:
 
 - The name of the function.
 - A list of parameters to the function, enclosed in parentheses (`()`) and separated by commas.
@@ -568,3 +533,7 @@ function square(number) {
 The function square takes one parameter, called `number`. The function consists of one statement that says to return the parameter of the function (that is, `number`) multiplied by itself. The `return` statement specifies the value returned by the function.
 
 ---
+
+## Lab
+
+[Dice roller](https://codepen.io/pataruco/pen/OJLNQom)

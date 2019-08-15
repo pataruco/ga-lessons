@@ -30,7 +30,7 @@ class: center, middle
 
 Checkout these **fixed** sites
 
-- [Cater Allen Private Bank](https://www.caterallen.co.uk/)
+- [Google](https://www.google.com)
 - [Ling's Cars](https://www.lingscars.com/)
 
 ---
