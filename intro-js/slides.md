@@ -97,9 +97,6 @@ Pseudocode is a mixture of natural language and high-level programming construct
 If the door is closed and I want to exit the room, then open the door
 This semester we will learn what these keywords and structures are and how they are used to create a program…
 
-Note:
-We will do Thermostat later
-
 ---
 
 ## Thermostat
