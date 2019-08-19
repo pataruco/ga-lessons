@@ -537,3 +537,144 @@ The function square takes one parameter, called `number`. The function consists 
 ## Lab
 
 [Dice roller](https://codepen.io/pataruco/pen/OJLNQom)
+
+---
+
+## Objects
+
+An object is a collection of properties that are made up of key:value pairings.
+
+```js
+const myObject = {
+  key: value,
+};
+```
+
+The key is the name of the property, the value can be anything:
+a string, a number, a function, even another Object
+
+---
+
+## Objects
+
+An object in JS can be compared to an object in real life. It has a number of properties that define it.
+
+```js
+const car = {
+  make: 'Tesla',
+  model: 'Model 3',
+  price: '£30,000',
+};
+```
+
+We can access these properties using dot notation
+
+```js
+car.make; //returns 'Tesla'
+car.make = 'Ford';
+car.make; // returns 'Ford'
+```
+
+---
+
+## Arrays
+
+An array is an ordered collection of values, this time with no key.
+Unlike Objects, the order of an Array is really important, and is persisted.
+Again, the value can be anything.
+
+```js
+const myArray = ['some string', 269, { key: 'value' }, [1, 2, 3]];
+```
+
+The order of an Array is zero indexed.
+
+```js
+console.log(myArray[0], myArray[1]); // prints 'some string', 269
+```
+
+---
+
+## Array methods
+
+Array methods are functions that we can do to Arrays.
+
+We can add values into our array, and take them out, but the order is always persisted.
+
+```js
+myArray.push('apple'); // adds the string 'apple' to the end of the Array
+myArray.pop(); //removes the last entry from the Array
+myArray.unshift(100); // add the number 100 to the start of the Array
+myArray.shift(); // removes the first entry in the Array
+```
+
+---
+
+## Array methods
+
+The most important Array methods we use are called iterators. This means that we
+iterate over each entry in the Array, and do something to it.
+
+The first one is a simple `for` loop.
+
+```js
+for (let i = 0; i < myArray.length; i++) {
+  /*do something to*/ myArray[i];
+}
+```
+
+The rest are built in functions (can be invoked using dot notation on Array)
+
+---
+
+## Array methods
+
+The `forEach` method executes a provided function once for each array element.
+This is the same as our for loop.
+
+```js
+myArray.forEach(element => {
+  console.log(element);
+});
+```
+
+The `map` method returns a new array with the results of having performed a
+function on each element of the array.
+
+```js
+const numbers = [4, 5, 10, 12];
+const doubled = numbers.map(number => {
+  number * 2;
+});
+console.log(doubled); // returns [8, 10, 20, 24]
+```
+
+---
+
+## Array methods
+
+The filter method returns a new Array with the elements that pass a condition in the provided functions
+
+```js
+const numbers = [4, 5, 10, 12];
+const filtered = numbers.filter(number => {
+  number < 10;
+});
+console.log(filtered); // returns [4, 5]
+```
+
+The reduce method executes a reducer function on each element, returning a single value.
+
+```js
+const numbers = [4, 5, 10, 12];
+function reducer(accumulator, currentValue) {
+  accumulator + currentValue;
+}
+console.log(numbers.reduce(reducer), 0); // returns 31
+```
+
+---
+
+## Lab
+
+[Dice roller array edition](https://codepen.io/pataruco/pen/OJLNQom)
