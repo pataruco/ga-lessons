@@ -364,7 +364,7 @@ a % b; // returns 3
 
 ## Score keeper
 
-[Code along](https://codepen.io/pataruco/pen/pLXwaz)
+[Code along](https://codepen.io/pataruco/pen/XWrNEVo)
 
 ---
 
@@ -533,7 +533,7 @@ The function square takes one parameter, called `number`. The function consists 
 
 ## Lab
 
-[Dice roller](https://codepen.io/pataruco/pen/OJLNQom)
+[Dice roller](https://codepen.io/pataruco/pen/XWrNEVo)
 
 ---
 
