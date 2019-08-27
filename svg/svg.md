@@ -117,8 +117,6 @@ class: center, middle
 
 - Positions are then measured in pixels from the top left corner, with the positive x direction being to the right, and the positive y direction being to the bottom.
 
-Note:
-this is the opposite of the way you're taught to graph as a kid. However, this is the same way elements in HTML are positioned (By default, LTR documents are considered not the RTL documents which position X from right-to-left
 ]
 
 ---
