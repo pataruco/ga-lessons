@@ -40,7 +40,7 @@ const fewdLessons: Slides = {
   jquery: 'intro-jquery/slides.md',
   jqueryPlugins: 'intro-jquery-plugins/slides.md',
   js: 'intro-js/slides.md',
-  jsPlugins: './slides/js-plugins/slides.md',
+  jsPlugins: 'js-plugins/slides.md',
   positioning: 'positioning/positioning.md',
   responsive: 'responsive/responsive.md',
   svg: 'svg/svg.md',
