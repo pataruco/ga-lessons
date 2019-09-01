@@ -8,10 +8,6 @@ class: center, middle
 
 ---
 
-## Agenda
-
----
-
 ## JavaScript plugins
 
 A plugin is a self-contained bundle of JavaScript (and sometimes CSS and images) that adds interaction and functionality without you having to write the code yourself!
