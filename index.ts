@@ -34,7 +34,7 @@ const fewdLessons: Slides = {
   finalPresentations: 'final-presentations/slides.md',
   flexbox: 'flexbox/flexbox.md',
   forms: 'forms/forms.md',
-  git: 'git/slides.md',
+  git: './slides/git/slides.md',
   html: 'intro-html/html.md',
   htmlCss: 'html-css/html-css.md',
   intro: 'intro/intro.md',
@@ -66,7 +66,7 @@ UXDI
 const uxdi: Slides = {
   introJs: 'js-uxdi/intro-js.md',
   positioning: 'positioning-uxdi/positioning.md',
-  git: 'git-uxdi/slides.md',
+  git: './slides/git-uxdi/slides.md',
 };
 
 export default {
