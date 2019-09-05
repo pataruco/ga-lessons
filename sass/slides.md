@@ -123,9 +123,9 @@ But if we want to use Sass in a project we're building locally, we need an appli
 Sass is often compiled via the command line but this is quite advanced for beginners.
 Here are some free apps you can use instead:
 
-- Scout
-- Koala
-- Compass
+- [Scout](https://scout-app.io/)
+- [Koala](http://koala-app.com/)
+- [Compass](http://compass-style.org/)
 
 ---
 
