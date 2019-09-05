@@ -34,7 +34,7 @@ const fewdLessons: Slides = {
   finalPresentations: 'final-presentations/slides.md',
   flexbox: 'flexbox/flexbox.md',
   forms: 'forms/forms.md',
-  git: './slides/git/slides.md',
+  git: 'git/slides.md',
   html: 'intro-html/html.md',
   htmlCss: 'html-css/html-css.md',
   intro: 'intro/intro.md',
