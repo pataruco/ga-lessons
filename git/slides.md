@@ -8,16 +8,6 @@ class: center, middle
 
 ---
 
----
-
-## Objective
-
-By the end of the session you'll be able to:
-
-- Keep your project backed up and well organised
-
----
-
 ## Version control
 
 Have you ever lost or overwritten some work that took you ages?
@@ -64,7 +54,7 @@ This keeps the history small in file size and quick to work with.
 
 ## Version control
 
-The most popular version control system in use today is called **git**.
+The most popular version control system in use today is called [**git**](https://git-scm.com/).
 
 Projects are stored in something called a **repository** which is just like a collection of files and folders.
 
@@ -115,6 +105,15 @@ Think of each commit message like an email. You have a brief subject and (an opt
 ---
 
 ## Git for final projects
+
+---
+
+## GitHub
+
+- Open an account on GitHub go to [https://github.com/join](https://github.com/join)
+- Sign up
+- Download [GitHub desktop](https://desktop.github.com/)
+- Associate your GitHub account with GitHub desktop
 
 ---
 
