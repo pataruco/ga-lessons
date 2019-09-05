@@ -38,7 +38,7 @@ Let's list that, shall we?!
 
 ## Next steps
 
-Ask for a pay rise!
+## Ask for a pay rise!
 
 Yes, you hear me right, your training have give an edge that can diffentiate you from your colleagues
 
@@ -48,7 +48,7 @@ Just ask it... they can say no, but what happens if they say yes?!
 
 ## Next steps
 
-PRACTICE, PRACTICE, PRACTICE
+### PRACTICE, PRACTICE, PRACTICE
 
 And when you get bored keep practicing
 
@@ -80,7 +80,7 @@ Learn a front end library
 
 Do code free courses
 
-- [Free Code Camp](https://www.freecodecamp.org/)
+- [FreeCodeCamp](https://www.freecodecamp.org/)
 - [EdX](https://www.edx.org/course/?subject=Computer%20Science&language=English&level=Introductory)
 - [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn)
 - [Coursera](https://www.coursera.org/courses?languages=en&query=full+stack+web+development&userQuery=web+development)
@@ -91,8 +91,8 @@ Do code free courses
 
 Dive into JavaScript
 
-[JavaScript is the MOST popular technology so far in 2018](https://insights.stackoverflow.com/survey/2018/#technology)
-and it's [very well](https://insights.stackoverflow.com/survey/2018/#top-paying-technologies) payed
+[JavaScript is the MOST popular technology so far in 2019](https://insights.stackoverflow.com/survey/2019/#technology)
+and it's [very well](https://insights.stackoverflow.com/survey/2019/#top-paying-technologies) payed
 
 ---
 
