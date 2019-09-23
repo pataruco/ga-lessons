@@ -110,14 +110,6 @@ Read and follow front end blogs... even if you don't understand it... yet
 
 ---
 
-## Next steps
-
-Please, fill this feedback form.
-
-[Form](http://bit.ly/glafeedback)
-
----
-
 ## Final Presentations
 
 I create this [randomniser](http://pataruco.github.io/random-picker/) to be sort out how is going to present
