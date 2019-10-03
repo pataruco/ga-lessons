@@ -1,5 +1,3 @@
-class: center, middle
-
 # .center[Intro to HTML]
 
 ## .center[Pedro Martin]
@@ -71,11 +69,9 @@ Please, tell us the difference between:
 
 ---
 
-class: center, middle
-
 # The 3 Layers of the Web
 
-![](https://mdn.mozillademos.org/files/13502/cake.png)
+.image-third[![](https://mdn.mozillademos.org/files/13502/cake.png)]
 
 ---
 
