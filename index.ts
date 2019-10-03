@@ -69,8 +69,13 @@ const uxdi: Slides = {
   git: './slides/git-uxdi/slides.md',
 };
 
+const js: Slides = {
+  installfest: 'installfest/slides.md',
+};
+
 export default {
   fewdLessons,
   introToCode,
   uxdi,
+  js,
 };
