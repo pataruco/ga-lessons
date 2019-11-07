@@ -56,7 +56,7 @@ introToCode
 */
 
 const introToCode: Slides = {
-  introToCode: '../intro-to-code/intro-to-code.md',
+  introToCode: 'intro-to-code/intro-to-code.md',
 };
 
 /*

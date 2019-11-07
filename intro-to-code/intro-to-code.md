@@ -12,20 +12,6 @@ class: fullscreen, bg-red
 
 ---
 
-# Locations
-
-<iframe src="https://pataruco.github.io/ga-locations/" style="height: 35vh" frameborder="0" ></iframe>
-
-???
-
-- General Assembly **“GA”** - is a global education institution that specializes in the most in-demand skills across data, design, technology and business.
-- We have campuses like this one in 14 other cities around the world, where we empower a global community to pursue work they love
-- We offer classes, workshops, and courses in development, design, digital marketing, data science, and business with a range of commitment options
-- As part of helping individuals like yourselves acquire new skills and/or transition into a new career, we also work with employers as a source of talent.
-- In fact, more than 2500 employers have hired our grads of our full-time, immersive courses!
-
----
-
 class: fullscreen, bg-black
 
 # Intro to coding
@@ -40,7 +26,7 @@ class: fullscreen, bg-black
 
 By the end of this workshop, our goal is to build a simple **responsive** web page.
 
-# [http://bit.ly/GAIntroToCode](http://bit.ly/GAIntroToCode)
+[http://bit.ly/GAIntroToCode](http://bit.ly/GAIntroToCode)
 
 ???
 
@@ -52,8 +38,6 @@ By the end of this workshop, our goal is to build a simple **responsive** web pa
 # How the Web works?
 
 .image-two-thirds[![](https://mdn.mozillademos.org/files/13839/Web%20Application%20with%20HTML%20and%20Steps.png)]
-
----
 
 ???
 
@@ -69,7 +53,7 @@ By the end of this workshop, our goal is to build a simple **responsive** web pa
 
 ---
 
-class: fullscreen, bg-teal
+class: bg-teal, fullscreen
 
 # Tools We'll be using
 
@@ -104,11 +88,11 @@ For this workshop, we’ll be **[Visual Studio Code](https://code.visualstudio.c
 
 .row[
 .column[
-.image-half[![](https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg)]
+.image-half[![](https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg)]
 ]
 .column[
 
-- We recommend using **[Google Chrome](https://www.google.com/chrome/)**.
+- We recommend using **[Mozilla Firefox](https://www.mozilla.org/en-GB/firefox/new/)**.
 - It’s free
 - It provides many developer-friendly tools!
   ]
