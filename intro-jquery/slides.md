@@ -1,12 +1,8 @@
-class: center, middle
-
 # .center[intro jQuery]
 
 ## .center[Pedro Martin]
 
 .logo[![](https://pataruco.s3.amazonaws.com/ga/assets/ga.svg)]
-
----
 
 ---
 

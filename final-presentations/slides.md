@@ -1,5 +1,3 @@
-class: center, middle
-
 # .center[Final Presentations]
 
 ## .center[Pedro Martin]
@@ -92,8 +90,8 @@ Do code free courses
 
 Dive into JavaScript
 
-[JavaScript is the MOST popular technology so far in 2019](https://insights.stackoverflow.com/survey/2019/#technology)
-and it's [very well](https://insights.stackoverflow.com/survey/2019/#top-paying-technologies) payed
+[JavaScript is the MOST popular technology so far in 2020](https://insights.stackoverflow.com/survey/2020/#most-popular-technologies)
+and it's [very well](https://insights.stackoverflow.com/survey/2020/#top-paying-technologies) payed
 
 ---
 
