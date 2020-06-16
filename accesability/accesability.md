@@ -1,5 +1,3 @@
-class: center, middle
-
 # .center[Accesability]
 
 ## .center[Pedro Martin]
