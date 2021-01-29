@@ -68,6 +68,7 @@ const uxdi: Slides = {
   positioning: 'positioning-uxdi/positioning.md',
   git: './slides/git-uxdi/slides.md',
   oneDayWorlshopMorning: './uxdi-workshop/morning/slides.md',
+  oneDayWorlshopAfternoon: './uxdi-workshop/afternoon/slides.md',
 };
 
 const js: Slides = {
